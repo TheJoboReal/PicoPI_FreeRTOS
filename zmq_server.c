@@ -15,11 +15,20 @@ int main (void)
 
     while (1) {
         char buffer [20];   
-        zmq_recv (responder, buffer, 20, 0);
+        int bytes_received = zmq_recv (responder, buffer, 19, 0);
+        buffer[bytes_received] = '\0';
         // Print received message
         printf("Received: %s\n", buffer);
         sleep (1);          //  Do some 'work'
-        zmq_send (responder, "Transmitted", 11, 0);
+        if(strcmp(buffer, "0001") == 0){
+            zmq_send (responder, "Time is 14:44", 13, 0);
+        }
+        else if(strcmp(buffer, "0002") == 0){
+            zmq_send (responder, "Going forward", 13, 0);
+        }
+        else{
+            zmq_send (responder, "Unrecognized command", 20, 0);
+        }
     }
     return 0;
 }

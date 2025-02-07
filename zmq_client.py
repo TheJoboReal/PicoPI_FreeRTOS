@@ -5,6 +5,7 @@
 #
 
 import zmq
+import time
 
 context = zmq.Context()
 
@@ -12,12 +13,27 @@ context = zmq.Context()
 print("Connecting to hello world server…")
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
+print("Conencted to server")
 
 #  Do 10 requests, waiting each time for a response
-for request in range(10):
-    print(f"Sending request {request} …")
-    socket.send(b"This is working")
+# for request in range(10):
+#     print(f"Sending request {request} …")
+#     socket.send(b"This is working")
 
+#     #  Get the reply.
+#     message = socket.recv()
+#     print(f"Received reply {request} [ {message} ]")
+
+while(1):
+    socket.send(b"0001")
     #  Get the reply.
     message = socket.recv()
-    print(f"Received reply {request} [ {message} ]")
+    print(f"Received reply[ {message} ]")
+    time.sleep(1)
+
+
+    socket.send(b"0002")
+    #  Get the reply.
+    message = socket.recv()
+    print(f"Received reply[ {message} ]")
+    time.sleep(1)
