@@ -9,10 +9,19 @@ import time
 
 context = zmq.Context()
 
-#  Socket to talk to server
-print("Connecting to hello world server…")
+# Set PicoPi's IP address here
+PICO_IP = "192.168.0.121"  # Change this to PicoPi's actual IP
+PORT = 5555
+
+context = zmq.Context()
 socket = context.socket(zmq.REQ)
-socket.connect("tcp://localhost:5555")
+socket.connect(f"tcp://{PICO_IP}:{PORT}")  # Connect to PicoPi server
+
+
+# #  Socket to talk to server
+# print("Connecting to hello world server…")
+# socket = context.socket(zmq.REQ)
+# socket.connect("tcp://localhost:5555")
 print("Conencted to server")
 
 #  Do 10 requests, waiting each time for a response
