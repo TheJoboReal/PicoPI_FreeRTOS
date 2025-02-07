@@ -8,17 +8,18 @@
 int main (void)
 {
     //  Socket to talk to clients
-    void *context = zmq_ctx_new ();
+    void *context = zmq_ctx_new ();     //  Socket to talk to clients
     void *responder = zmq_socket (context, ZMQ_REP);
     int rc = zmq_bind (responder, "tcp://*:5555");
-    assert (rc == 0);
+    assert (rc == 0);   
 
     while (1) {
-        char buffer [10];
-        zmq_recv (responder, buffer, 10, 0);
-        printf ("Received Hello\n");
+        char buffer [20];   
+        zmq_recv (responder, buffer, 20, 0);
+        // Print received message
+        printf("Received: %s\n", buffer);
         sleep (1);          //  Do some 'work'
-        zmq_send (responder, "World", 5, 0);
+        zmq_send (responder, "Transmitted", 11, 0);
     }
     return 0;
 }
