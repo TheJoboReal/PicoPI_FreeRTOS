@@ -13,9 +13,11 @@ set(CMAKE_CXX_STANDARD 17)
 # Initialize the SDK
 pico_sdk_init()
 
-add_executable(app main.c)
+add_executable(app src/main.c)
 
-target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR}
+                            include
+)
  
 # pull in common dependencies
 target_link_libraries(app pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
