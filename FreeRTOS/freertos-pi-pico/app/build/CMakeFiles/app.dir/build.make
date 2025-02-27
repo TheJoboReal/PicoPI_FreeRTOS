@@ -1206,160 +1206,6 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devic
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -MF CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o.d -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c > CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-
-CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c -o CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.c.o" \
@@ -1443,18 +1289,7 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
-"CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o" \
-"CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
-"CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o" \
-"CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
+"CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
@@ -1541,22 +1376,11 @@ app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/vid
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
 app.elf: CMakeFiles/app.dir/build.make
 app.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 app.elf: /home/kasper/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 app.elf: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Linking CXX executable app.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable app.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/app.elf > app.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/app.elf >> app.dis

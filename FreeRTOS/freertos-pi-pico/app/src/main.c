@@ -10,9 +10,9 @@ void vBlinkTask() {
         gpio_set_dir(LED_PIN, GPIO_OUT);
 
         gpio_put(LED_PIN, 1);
-        vTaskDelay(1000);
+        vTaskDelay(500);
         gpio_put(LED_PIN, 0);
-        vTaskDelay(1000);
+        vTaskDelay(500);
     }
 }
 

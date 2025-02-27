@@ -17,9 +17,6 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/common/pico_sync/sem.c.o: \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/generated/pico_base/pico/config_autogen.h \
  /home/kasper/pico-sdk/src/boards/include/boards/pico.h \
  /home/kasper/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/FreeRTOSConfig.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/kasper/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
  /home/kasper/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
  /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \

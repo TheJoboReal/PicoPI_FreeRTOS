@@ -130,6 +130,32 @@ app/fast:
 .PHONY : app/fast
 
 #=============================================================================
+# Target rules for targets named picotoolForceReconfigure
+
+# Build rule for target.
+picotoolForceReconfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
+.PHONY : picotoolForceReconfigure
+
+# fast build rule for target.
+picotoolForceReconfigure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolForceReconfigure.dir/build.make CMakeFiles/picotoolForceReconfigure.dir/build
+.PHONY : picotoolForceReconfigure/fast
+
+#=============================================================================
+# Target rules for targets named picotoolBuild
+
+# Build rule for target.
+picotoolBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
+.PHONY : picotoolBuild
+
+# fast build rule for target.
+picotoolBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolBuild.dir/build.make CMakeFiles/picotoolBuild.dir/build
+.PHONY : picotoolBuild/fast
+
+#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -194,221 +220,18 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.o
+#=============================================================================
+# Target rules for targets named FreeRTOS
 
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.o
+# Build rule for target.
+FreeRTOS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FreeRTOS
+.PHONY : FreeRTOS
 
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.c.s
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.o: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.o
-
-# target to build an object file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.o
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.i: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.i
-
-# target to preprocess a source file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.i
-
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.s: home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.s
-
-# target to generate assembly for a file
-home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s
-.PHONY : home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.c.s
+# fast build rule for target.
+FreeRTOS/fast:
+	$(MAKE) $(MAKESILENT) -f lib/FreeRTOS-Kernel/CMakeFiles/FreeRTOS.dir/build.make lib/FreeRTOS-Kernel/CMakeFiles/FreeRTOS.dir/build
+.PHONY : FreeRTOS/fast
 
 home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
@@ -1162,30 +985,6 @@ home/kasper/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
-home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.o: home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-.PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.o
-
-# target to build an object file
-home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-.PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-
-home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.i
-
-# target to preprocess a source file
-home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.s
-
-# target to generate assembly for a file
-home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
 home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.o
 
@@ -1866,30 +1665,6 @@ home/kasper/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : home/kasper/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
-home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.o: home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-.PHONY : home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.o
-
-# target to build an object file
-home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-.PHONY : home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
-
-home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.i: home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.i
-
-# target to preprocess a source file
-home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-
-home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.s: home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.s
-
-# target to generate assembly for a file
-home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-
 home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
 
@@ -2260,37 +2035,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@echo "... picotoolBuild"
+	@echo "... picotoolForceReconfigure"
 	@echo "... pioasmBuild"
+	@echo "... FreeRTOS"
 	@echo "... app"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/croutine.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/event_groups.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/list.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/queue.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/stream_buffer.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/tasks.s"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.o"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.i"
-	@echo "... home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/timers.s"
 	@echo "... home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2385,9 +2136,6 @@ help:
 	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_divider/divider.o"
-	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.o"
-	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.i"
-	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.o"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -2473,9 +2221,6 @@ help:
 	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
-	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.o"
-	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
-	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
 	@echo "... home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"

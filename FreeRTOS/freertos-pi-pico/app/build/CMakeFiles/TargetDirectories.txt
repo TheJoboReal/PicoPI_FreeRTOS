@@ -1,8 +1,8 @@
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/app.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/picotoolForceReconfigure.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/picotoolBuild.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/rebuild_cache.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/FREERTOS_KERNEL/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/pico-sdk/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/pico-sdk/tools/CMakeFiles/edit_cache.dir
@@ -198,3 +198,6 @@
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/lib/FreeRTOS-Kernel/CMakeFiles/FreeRTOS.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/lib/FreeRTOS-Kernel/CMakeFiles/edit_cache.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/lib/FreeRTOS-Kernel/CMakeFiles/rebuild_cache.dir

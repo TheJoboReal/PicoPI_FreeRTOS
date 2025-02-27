@@ -21,9 +21,6 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/generated/pico_base/pico/config_autogen.h \
  /home/kasper/pico-sdk/src/boards/include/boards/pico.h \
  /home/kasper/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/FreeRTOSConfig.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/kasper/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
  /home/kasper/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
  /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
@@ -33,14 +30,4 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: \
  /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/kasper/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /home/kasper/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h \
- /home/kasper/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
- /home/kasper/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
- /home/kasper/pico-sdk/src/common/pico_time/include/pico/time.h \
- /home/kasper/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /home/kasper/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /home/kasper/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /home/kasper/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /home/kasper/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h
+ /home/kasper/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
