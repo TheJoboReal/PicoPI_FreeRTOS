@@ -1,3 +1,0 @@
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/freertos-pi-pico/app/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/freertos-pi-pico/app/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/freertos-pi-pico/app/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
