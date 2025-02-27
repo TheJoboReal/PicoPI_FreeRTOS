@@ -1,0 +1,5 @@
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/_deps/picotool/picotool
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/_deps/picotool/picotoolTargets.cmake
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/_deps/picotool/picotoolTargets-release.cmake
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/_deps/picotool/picotoolConfig.cmake
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/_deps/picotool/picotoolConfigVersion.cmake
