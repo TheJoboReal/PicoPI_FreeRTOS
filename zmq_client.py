@@ -10,7 +10,7 @@ import time
 context = zmq.Context()
 
 # Set PicoPi's IP address here
-PICO_IP = "192.168.0.121"  # Change this to PicoPi's actual IP
+PICO_IP = "localhost"  # Change this to PicoPi's actual IP
 PORT = 5555
 
 context = zmq.Context()
