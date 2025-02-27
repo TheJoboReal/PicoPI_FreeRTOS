@@ -4,7 +4,7 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/pico-sdk/src/boards/include/boards/pico.h"
-#include "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/home/kasper/.pico-sdk/sdk/2.1.1/src/boards/include/boards/pico.h"
+#include "/home/kasper/.pico-sdk/sdk/2.1.1/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:

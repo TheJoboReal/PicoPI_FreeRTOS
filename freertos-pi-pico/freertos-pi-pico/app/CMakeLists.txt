@@ -17,10 +17,10 @@ set(PICO_BOARD pico CACHE STRING "Board type")
 cmake_minimum_required(VERSION 3.13)
 
 # Pull in SDK (must be before project)
-include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+include(/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/pico-sdk/external/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
-include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+include(/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/freertos-pi-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 project(app C CXX ASM)
 set(CMAKE_C_STANDARD 11)
