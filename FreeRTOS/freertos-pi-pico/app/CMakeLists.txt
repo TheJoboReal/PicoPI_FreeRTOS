@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.13)
 
 # Pull in SDK (must be before project)
-include(/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/lib/pico-sdk/external/pico_sdk_import.cmake)
+include(lib/pico-sdk/external/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
-include(/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+include(lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 project(app C CXX ASM)
 set(CMAKE_C_STANDARD 11)
