@@ -4675,6 +4675,7 @@ LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/e
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
 LOAD CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
 LOAD pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+LOAD lib/uMQTT/libuMQTT.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP

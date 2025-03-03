@@ -220,6 +220,19 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named uMQTT
+
+# Build rule for target.
+uMQTT: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uMQTT
+.PHONY : uMQTT
+
+# fast build rule for target.
+uMQTT/fast:
+	$(MAKE) $(MAKESILENT) -f lib/uMQTT/CMakeFiles/uMQTT.dir/build.make lib/uMQTT/CMakeFiles/uMQTT.dir/build
+.PHONY : uMQTT/fast
+
 home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
@@ -2292,6 +2305,7 @@ help:
 	@echo "... app"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
+	@echo "... uMQTT"
 	@echo "... home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"

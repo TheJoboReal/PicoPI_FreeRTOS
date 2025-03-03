@@ -19,6 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake"
   "../lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/pico_sdk_import.cmake"
   "../lib/pico-sdk/external/pico_sdk_import.cmake"
+  "../lib/uMQTT/CMakeLists.txt"
   "/home/kasper/pico-sdk/CMakeLists.txt"
   "/home/kasper/pico-sdk/cmake/Platform/PICO.cmake"
   "/home/kasper/pico-sdk/cmake/generic_board.cmake"
@@ -359,6 +360,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/pico_stdio/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/uMQTT/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -371,4 +373,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
+  "lib/uMQTT/CMakeFiles/uMQTT.dir/DependInfo.cmake"
   )

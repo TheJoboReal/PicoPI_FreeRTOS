@@ -97,6 +97,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/kasper/pico-sdk/lib/tinyusb/src"
   "../lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"
   "../lib/FreeRTOS-Kernel/include"
+  "../lib/uMQTT"
   "/home/kasper/pico-sdk/src/common/pico_stdlib_headers/include"
   "/home/kasper/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/home/kasper/pico-sdk/src/common/pico_base_headers/include"
@@ -245,6 +246,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/lib/uMQTT/CMakeFiles/uMQTT.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

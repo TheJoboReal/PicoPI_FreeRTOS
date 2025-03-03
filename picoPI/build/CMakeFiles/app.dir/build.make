@@ -1554,6 +1554,7 @@ app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/m
 app.elf: CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
 app.elf: CMakeFiles/app.dir/build.make
 app.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+app.elf: lib/uMQTT/libuMQTT.a
 app.elf: /home/kasper/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 app.elf: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Linking CXX executable app.elf"

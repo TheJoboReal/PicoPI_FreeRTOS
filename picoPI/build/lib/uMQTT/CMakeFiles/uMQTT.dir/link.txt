@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libuMQTT.a CMakeFiles/uMQTT.dir/src/uMQTT.c.o
+/usr/bin/arm-none-eabi-ranlib libuMQTT.a
