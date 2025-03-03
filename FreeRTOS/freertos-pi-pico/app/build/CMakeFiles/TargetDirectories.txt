@@ -1,6 +1,4 @@
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/app.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/picotoolForceReconfigure.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/picotoolBuild.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/FreeRTOS/freertos-pi-pico/app/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
