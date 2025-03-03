@@ -92,6 +92,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../"
+  "../src/inc"
   "/home/kasper/pico-sdk/src/rp2_common/pico_atomic/include"
   "/home/kasper/pico-sdk/lib/tinyusb/src"
   "../lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"

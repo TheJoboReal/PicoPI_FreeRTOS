@@ -15,7 +15,9 @@ pico_sdk_init()
 
 add_executable(app src/main.c)
 
-target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR}
+    src/inc
+    )
  
 # pull in common dependencies
 target_link_libraries(app pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
