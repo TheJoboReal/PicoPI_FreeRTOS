@@ -151,14 +151,18 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .bss           0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .text.setup_default_uart
+                0x0000000000000000       0x2c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+ .binary_info.__bi_ptr24
+                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+ .rodata.__bi_24.0
                 0x0000000000000000        0x8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
- .debug_info    0x0000000000000000       0xa6 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
- .debug_abbrev  0x0000000000000000       0x64 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+ .debug_info    0x0000000000000000      0x350 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+ .debug_abbrev  0x0000000000000000      0x15e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .debug_ranges  0x0000000000000000       0x10 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
- .debug_line    0x0000000000000000      0x11a CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
- .debug_str     0x0000000000000000      0x1d2 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+ .debug_line    0x0000000000000000      0x316 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+ .debug_str     0x0000000000000000      0x398 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .comment       0x0000000000000000       0x34 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .debug_frame   0x0000000000000000       0x28 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
  .ARM.attributes
@@ -1548,9 +1552,9 @@ Discarded input sections
  .text.stdio_flush
                 0x0000000000000000       0x28 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_init_all
-                0x0000000000000000       0x10 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000000000000        0x8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_deinit_all
-                0x0000000000000000       0x30 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000000000000000       0x2c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_getchar_timeout_us
                 0x0000000000000000       0x98 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_filter_driver
@@ -1565,85 +1569,6 @@ Discarded input sections
                 0x0000000000000000       0xd8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.__wrap_printf
                 0x0000000000000000       0x18 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .text          0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .data          0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .bss           0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_out_chars
-                0x0000000000000000       0x4c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_in_chars
-                0x0000000000000000       0x84 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.on_uart_rx
-                0x0000000000000000       0x28 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_out_flush
-                0x0000000000000000       0x14 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_set_chars_available_callback
-                0x0000000000000000       0x88 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_init
-                0x0000000000000000       0x50 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdout_uart_init
-                0x0000000000000000       0x40 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdin_uart_init
-                0x0000000000000000       0x40 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_init_full
-                0x0000000000000000       0x3c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_deinit
-                0x0000000000000000       0x24 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdout_uart_deinit
-                0x0000000000000000       0x24 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdin_uart_deinit
-                0x0000000000000000       0x24 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .text.stdio_uart_deinit_full
-                0x0000000000000000       0x20 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.str1.4
-                0x0000000000000000       0x2c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr45
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr49
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr50
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr71
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr75
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr83
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .binary_info.__bi_ptr87
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .bss.chars_available_callback
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .bss.chars_available_param
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .bss.uart_instance
-                0x0000000000000000        0x4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .data.stdio_uart
-                0x0000000000000000       0x18 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_45.4
-                0x0000000000000000        0xc CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_49.5
-                0x0000000000000000        0x8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_50.6
-                0x0000000000000000        0x8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_71.2
-                0x0000000000000000        0x8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_75.3
-                0x0000000000000000        0xc CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_83.0
-                0x0000000000000000        0x8 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .rodata.__bi_87.1
-                0x0000000000000000        0xc CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_info    0x0000000000000000     0x14df CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_abbrev  0x0000000000000000      0x43b CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_loc     0x0000000000000000      0xa4e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_aranges
-                0x0000000000000000       0x70 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_ranges  0x0000000000000000      0x4c0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_line    0x0000000000000000      0xc71 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_str     0x0000000000000000      0xea4 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .comment       0x0000000000000000       0x34 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_frame   0x0000000000000000      0x154 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .ARM.attributes
-                0x0000000000000000       0x2c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text          0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
  .data          0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
  .bss           0x0000000000000000        0x0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
@@ -4637,7 +4562,6 @@ LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_printf/printf.c
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 LOAD CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -4841,7 +4765,7 @@ LOAD linker stubs
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x30b8b
+.debug_info     0x0000000000000000    0x30a3a
  .debug_info    0x0000000000000000      0x6ef CMakeFiles/app.dir/src/main.c.o
  .debug_info    0x00000000000006ef     0x24d3 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_info    0x0000000000002bc2      0x19c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -4875,20 +4799,20 @@ LOAD linker stubs
  .debug_info    0x0000000000014d43     0x21b1 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_info    0x0000000000016ef4       0x22 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
  .debug_info    0x0000000000016f16      0xb4e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x0000000000017a64     0x1cdd CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x0000000000019741      0x1eb CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_info    0x000000000001992c      0xfac CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_info    0x000000000001a8d8     0x18ff CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
- .debug_info    0x000000000001c1d7      0xe4a CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
- .debug_info    0x000000000001d021      0x2d4 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
- .debug_info    0x000000000001d2f5     0x2ba2 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
- .debug_info    0x000000000001fe97     0xc736 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
- .debug_info    0x000000000002c5cd     0x1838 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
- .debug_info    0x000000000002de05      0x6fc CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
- .debug_info    0x000000000002e501     0x1ff3 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_info    0x00000000000304f4      0x583 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
- .debug_info    0x0000000000030a77       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x0000000000030a9d       0xee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_info    0x0000000000017a64     0x1b8c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x00000000000195f0      0x1eb CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_info    0x00000000000197db      0xfac CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_info    0x000000000001a787     0x18ff CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
+ .debug_info    0x000000000001c086      0xe4a CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
+ .debug_info    0x000000000001ced0      0x2d4 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
+ .debug_info    0x000000000001d1a4     0x2ba2 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
+ .debug_info    0x000000000001fd46     0xc736 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
+ .debug_info    0x000000000002c47c     0x1838 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
+ .debug_info    0x000000000002dcb4      0x6fc CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+ .debug_info    0x000000000002e3b0     0x1ff3 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_info    0x00000000000303a3      0x583 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
+ .debug_info    0x0000000000030926       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000003094c       0xee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_abbrev   0x0000000000000000     0x6ac4
  .debug_abbrev  0x0000000000000000      0x1db CMakeFiles/app.dir/src/main.c.o
@@ -4939,7 +4863,7 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000006a21       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .debug_abbrev  0x0000000000006a35       0x8f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_loc      0x0000000000000000    0x2b71b
+.debug_loc      0x0000000000000000    0x2b70c
  .debug_loc     0x0000000000000000      0x14e CMakeFiles/app.dir/src/main.c.o
  .debug_loc     0x000000000000014e     0x2956 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_loc     0x0000000000002aa4      0x6c7 CMakeFiles/app.dir/home/kasper/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -4963,19 +4887,19 @@ LOAD linker stubs
  .debug_loc     0x0000000000010d8f      0x313 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
  .debug_loc     0x00000000000110a2     0x3c08 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_loc     0x0000000000014caa      0x5b1 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_loc     0x000000000001525b     0x1572 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_loc     0x00000000000167cd      0x4aa CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_loc     0x0000000000016c77      0xbb0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_loc     0x0000000000017827      0xb2c CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
- .debug_loc     0x0000000000018353     0x1396 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
- .debug_loc     0x00000000000196e9       0xc9 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
- .debug_loc     0x00000000000197b2     0x3397 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
- .debug_loc     0x000000000001cb49     0xbc19 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
- .debug_loc     0x0000000000028762     0x1325 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
- .debug_loc     0x0000000000029a87      0x45d CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
- .debug_loc     0x0000000000029ee4     0x122c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_loc     0x000000000002b110      0x57b CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
- .debug_loc     0x000000000002b68b       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_loc     0x000000000001525b     0x1563 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_loc     0x00000000000167be      0x4aa CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_loc     0x0000000000016c68      0xbb0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_loc     0x0000000000017818      0xb2c CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
+ .debug_loc     0x0000000000018344     0x1396 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
+ .debug_loc     0x00000000000196da       0xc9 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
+ .debug_loc     0x00000000000197a3     0x3397 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
+ .debug_loc     0x000000000001cb3a     0xbc19 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
+ .debug_loc     0x0000000000028753     0x1325 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
+ .debug_loc     0x0000000000029a78      0x45d CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+ .debug_loc     0x0000000000029ed5     0x122c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_loc     0x000000000002b101      0x57b CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
+ .debug_loc     0x000000000002b67c       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_aranges  0x0000000000000000     0x1638
  .debug_aranges
@@ -5119,7 +5043,7 @@ LOAD linker stubs
  .debug_ranges  0x000000000000bf80      0xb38 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
  .debug_ranges  0x000000000000cab8       0x88 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
 
-.debug_line     0x0000000000000000    0x2545a
+.debug_line     0x0000000000000000    0x253eb
  .debug_line    0x0000000000000000      0x3fe CMakeFiles/app.dir/src/main.c.o
  .debug_line    0x00000000000003fe     0x1c00 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_line    0x0000000000001ffe      0x1dd CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -5153,22 +5077,22 @@ LOAD linker stubs
  .debug_line    0x000000000000fe91     0x17bf CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_line    0x0000000000011650       0xc1 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
  .debug_line    0x0000000000011711      0x763 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x0000000000011e74     0x1464 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x00000000000132d8      0x42e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_line    0x0000000000013706      0x8bd CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_line    0x0000000000013fc3     0x1138 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
- .debug_line    0x00000000000150fb      0x966 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
- .debug_line    0x0000000000015a61      0x398 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
- .debug_line    0x0000000000015df9     0x21c5 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
- .debug_line    0x0000000000017fbe     0xa54f CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
- .debug_line    0x000000000002250d      0xccc CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
- .debug_line    0x00000000000231d9      0x4c5 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
- .debug_line    0x000000000002369e     0x153e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
- .debug_line    0x0000000000024bdc      0x6ac CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
- .debug_line    0x0000000000025288       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x00000000000252e8      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_line    0x0000000000011e74     0x13f5 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x0000000000013269      0x42e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_line    0x0000000000013697      0x8bd CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_line    0x0000000000013f54     0x1138 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
+ .debug_line    0x000000000001508c      0x966 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
+ .debug_line    0x00000000000159f2      0x398 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
+ .debug_line    0x0000000000015d8a     0x21c5 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
+ .debug_line    0x0000000000017f4f     0xa54f CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
+ .debug_line    0x000000000002249e      0xccc CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
+ .debug_line    0x000000000002316a      0x4c5 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+ .debug_line    0x000000000002362f     0x153e CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_line    0x0000000000024b6d      0x6ac CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
+ .debug_line    0x0000000000025219       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000025279      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_str      0x0000000000000000     0x7864
+.debug_str      0x0000000000000000     0x75ad
  .debug_str     0x0000000000000000      0x418 CMakeFiles/app.dir/src/main.c.o
                                         0x469 (size before relaxing)
  .debug_str     0x0000000000000418      0x81c CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -5235,32 +5159,32 @@ LOAD linker stubs
                                          0x8c (size before relaxing)
  .debug_str     0x00000000000039aa      0x315 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
                                         0x73a (size before relaxing)
- .debug_str     0x0000000000003cbf      0x5c0 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                                        0xd9e (size before relaxing)
- .debug_str     0x000000000000427f       0xdb CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_str     0x0000000000003cbf      0x309 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                                        0xae7 (size before relaxing)
+ .debug_str     0x0000000000003fc8       0xdb CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
                                         0x281 (size before relaxing)
- .debug_str     0x000000000000435a      0x343 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_str     0x00000000000040a3      0x343 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
                                         0x691 (size before relaxing)
- .debug_str     0x000000000000469d      0x534 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
+ .debug_str     0x00000000000043e6      0x534 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o
                                         0xdb8 (size before relaxing)
- .debug_str     0x0000000000004bd1      0x440 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
+ .debug_str     0x000000000000491a      0x440 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o
                                         0x6df (size before relaxing)
- .debug_str     0x0000000000005011       0xdc CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
+ .debug_str     0x0000000000004d5a       0xdc CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o
                                         0x31b (size before relaxing)
- .debug_str     0x00000000000050ed      0x8ad CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
+ .debug_str     0x0000000000004e36      0x8ad CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o
                                         0xc64 (size before relaxing)
- .debug_str     0x000000000000599a      0xf16 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
+ .debug_str     0x00000000000056e3      0xf16 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o
                                        0x1657 (size before relaxing)
- .debug_str     0x00000000000068b0      0x561 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
+ .debug_str     0x00000000000065f9      0x561 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o
                                         0x9fa (size before relaxing)
- .debug_str     0x0000000000006e11      0x17d CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+ .debug_str     0x0000000000006b5a      0x17d CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
                                         0x49e (size before relaxing)
- .debug_str     0x0000000000006f8e      0x425 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_str     0x0000000000006cd7      0x425 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
                                         0xca2 (size before relaxing)
- .debug_str     0x00000000000073b3      0x2ef CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
+ .debug_str     0x00000000000070fc      0x2ef CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
                                         0x500 (size before relaxing)
- .debug_str     0x00000000000076a2       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_str     0x0000000000007748      0x11c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x00000000000073eb       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000007491      0x11c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
                                         0x1c5 (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x311c

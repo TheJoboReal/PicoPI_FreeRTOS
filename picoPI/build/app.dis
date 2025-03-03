@@ -37,21 +37,21 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000033  00000000  00000000  00008388  2**0
                   CONTENTS, READONLY
- 17 .debug_info   00030b8b  00000000  00000000  000083bb  2**0
+ 17 .debug_info   00030a3a  00000000  00000000  000083bb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 00006ac4  00000000  00000000  00038f46  2**0
+ 18 .debug_abbrev 00006ac4  00000000  00000000  00038df5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loc    0002b71b  00000000  00000000  0003fa0a  2**0
+ 19 .debug_loc    0002b70c  00000000  00000000  0003f8b9  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_aranges 00001638  00000000  00000000  0006b128  2**3
+ 20 .debug_aranges 00001638  00000000  00000000  0006afc8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_ranges 0000cb40  00000000  00000000  0006c760  2**3
+ 21 .debug_ranges 0000cb40  00000000  00000000  0006c600  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   0002545a  00000000  00000000  000792a0  2**0
+ 22 .debug_line   000253eb  00000000  00000000  00079140  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    00007864  00000000  00000000  0009e6fa  2**0
+ 23 .debug_str    000075ad  00000000  00000000  0009e52b  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  0000311c  00000000  00000000  000a5f60  2**2
+ 24 .debug_frame  0000311c  00000000  00000000  000a5ad8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/app.elf:     file format elf32-littlearm
@@ -9533,14 +9533,14 @@ Disassembly of section .data:
 200000ea:	2200      	movs	r2, #0
 200000ec:	601a      	str	r2, [r3, #0]
 200000ee:	f388 8810 	msr	PRIMASK, r8
-200000f2:	f000 f8e5 	bl	200002c0 <__ulPortLockGetCurrentOwnerId_veneer>
+200000f2:	f000 f8f5 	bl	200002e0 <__ulPortLockGetCurrentOwnerId_veneer>
 200000f6:	42b8      	cmp	r0, r7
 200000f8:	d10f      	bne.n	2000011a <mutex_try_enter_block_until+0x5a>
 200000fa:	2000      	movs	r0, #0
 200000fc:	bc80      	pop	{r7}
 200000fe:	46b8      	mov	r8, r7
 20000100:	bdf0      	pop	{r4, r5, r6, r7, pc}
-20000102:	f000 f8dd 	bl	200002c0 <__ulPortLockGetCurrentOwnerId_veneer>
+20000102:	f000 f8ed 	bl	200002e0 <__ulPortLockGetCurrentOwnerId_veneer>
 20000106:	6823      	ldr	r3, [r4, #0]
 20000108:	6060      	str	r0, [r4, #4]
 2000010a:	f3bf 8f5f 	dmb	sy
@@ -9549,13 +9549,13 @@ Disassembly of section .data:
 20000112:	f388 8810 	msr	PRIMASK, r8
 20000116:	2001      	movs	r0, #1
 20000118:	e7f0      	b.n	200000fc <mutex_try_enter_block_until+0x3c>
-2000011a:	f000 f8d1 	bl	200002c0 <__ulPortLockGetCurrentOwnerId_veneer>
+2000011a:	f000 f8e1 	bl	200002e0 <__ulPortLockGetCurrentOwnerId_veneer>
 2000011e:	0007      	movs	r7, r0
 20000120:	e006      	b.n	20000130 <mutex_try_enter_block_until+0x70>
 20000122:	002a      	movs	r2, r5
 20000124:	0033      	movs	r3, r6
 20000126:	0020      	movs	r0, r4
-20000128:	f000 f8da 	bl	200002e0 <__xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout_veneer>
+20000128:	f000 f8d2 	bl	200002d0 <__xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout_veneer>
 2000012c:	2800      	cmp	r0, #0
 2000012e:	d1e4      	bne.n	200000fa <mutex_try_enter_block_until+0x3a>
 20000130:	6822      	ldr	r2, [r4, #0]
@@ -9589,7 +9589,7 @@ Disassembly of section .data:
 20000170:	2301      	movs	r3, #1
 20000172:	425b      	negs	r3, r3
 20000174:	6043      	str	r3, [r0, #4]
-20000176:	f000 f8ab 	bl	200002d0 <__vPortLockInternalSpinUnlockWithNotify_veneer>
+20000176:	f000 f8a3 	bl	200002c0 <__vPortLockInternalSpinUnlockWithNotify_veneer>
 2000017a:	bd10      	pop	{r4, pc}
 
 2000017c <flash_init_boot2_copyout>:
@@ -9751,32 +9751,32 @@ Disassembly of section .data:
 200002bc:	0000      	movs	r0, r0
 	...
 
-200002c0 <__ulPortLockGetCurrentOwnerId_veneer>:
+200002c0 <__vPortLockInternalSpinUnlockWithNotify_veneer>:
 200002c0:	b401      	push	{r0}
-200002c2:	4802      	ldr	r0, [pc, #8]	; (200002cc <__ulPortLockGetCurrentOwnerId_veneer+0xc>)
+200002c2:	4802      	ldr	r0, [pc, #8]	; (200002cc <__vPortLockInternalSpinUnlockWithNotify_veneer+0xc>)
 200002c4:	4684      	mov	ip, r0
 200002c6:	bc01      	pop	{r0}
 200002c8:	4760      	bx	ip
 200002ca:	bf00      	nop
-200002cc:	10001d5d 	.word	0x10001d5d
+200002cc:	10001d8d 	.word	0x10001d8d
 
-200002d0 <__vPortLockInternalSpinUnlockWithNotify_veneer>:
+200002d0 <__xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout_veneer>:
 200002d0:	b401      	push	{r0}
-200002d2:	4802      	ldr	r0, [pc, #8]	; (200002dc <__vPortLockInternalSpinUnlockWithNotify_veneer+0xc>)
+200002d2:	4802      	ldr	r0, [pc, #8]	; (200002dc <__xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout_veneer+0xc>)
 200002d4:	4684      	mov	ip, r0
 200002d6:	bc01      	pop	{r0}
 200002d8:	4760      	bx	ip
 200002da:	bf00      	nop
-200002dc:	10001d8d 	.word	0x10001d8d
+200002dc:	10001e11 	.word	0x10001e11
 
-200002e0 <__xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout_veneer>:
+200002e0 <__ulPortLockGetCurrentOwnerId_veneer>:
 200002e0:	b401      	push	{r0}
-200002e2:	4802      	ldr	r0, [pc, #8]	; (200002ec <__xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout_veneer+0xc>)
+200002e2:	4802      	ldr	r0, [pc, #8]	; (200002ec <__ulPortLockGetCurrentOwnerId_veneer+0xc>)
 200002e4:	4684      	mov	ip, r0
 200002e6:	bc01      	pop	{r0}
 200002e8:	4760      	bx	ip
 200002ea:	bf00      	nop
-200002ec:	10001e11 	.word	0x10001e11
+200002ec:	10001d5d 	.word	0x10001d5d
 
 200002f0 <striped_spin_lock_num>:
 200002f0:	00000010                                ....

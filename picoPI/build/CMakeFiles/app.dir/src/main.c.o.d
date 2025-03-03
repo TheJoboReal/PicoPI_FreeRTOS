@@ -58,7 +58,6 @@ CMakeFiles/app.dir/src/main.c.o: \
  /home/kasper/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/kasper/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/kasper/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/include/projdefs.h \

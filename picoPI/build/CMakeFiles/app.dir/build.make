@@ -842,24 +842,10 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -873,7 +859,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_inte
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -887,7 +873,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -901,7 +887,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -915,7 +901,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_unique_id/unique_id.
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -929,7 +915,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -943,7 +929,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_xip_cache/xip_ca
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -957,7 +943,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -971,7 +957,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -985,7 +971,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_f
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -999,7 +985,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1013,7 +999,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/audio/audio_device
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1027,7 +1013,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1041,7 +1027,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1055,7 +1041,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1069,7 +1055,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1083,7 +1069,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1097,7 +1083,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1111,7 +1097,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_devi
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1125,7 +1111,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1139,7 +1125,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_devi
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1153,7 +1139,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/vendor/vendor_devi
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1167,7 +1153,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/class/video/video_device
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1181,7 +1167,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1195,7 +1181,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cm
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1209,7 +1195,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devic
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: ../lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -1223,7 +1209,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s: 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o: ../lib/FreeRTOS-Kernel/croutine.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/croutine.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -1237,7 +1223,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/croutine.c.s: cmake_force
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o: ../lib/FreeRTOS-Kernel/event_groups.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/event_groups.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -1251,7 +1237,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/event_groups.c.s: cmake_force
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o: ../lib/FreeRTOS-Kernel/list.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/list.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -1265,7 +1251,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/list.c.s: cmake_force
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o: ../lib/FreeRTOS-Kernel/queue.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/queue.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -1279,7 +1265,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/queue.c.s: cmake_force
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o: ../lib/FreeRTOS-Kernel/stream_buffer.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/stream_buffer.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -1293,7 +1279,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o: ../lib/FreeRTOS-Kernel/tasks.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/tasks.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -1307,7 +1293,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/tasks.c.s: cmake_force
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o: ../lib/FreeRTOS-Kernel/timers.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/timers.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -1321,7 +1307,7 @@ CMakeFiles/app.dir/lib/FreeRTOS-Kernel/timers.c.s: cmake_force
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1335,7 +1321,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/hardware_exception/except
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1349,7 +1335,7 @@ CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_multicore/multicore.
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: ../lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -MF CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o.d -o CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
 CMakeFiles/app.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -1418,7 +1404,6 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
 "CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
@@ -1515,7 +1500,6 @@ app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_printf/prin
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 app.elf: CMakeFiles/app.dir/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -1557,7 +1541,7 @@ app.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_
 app.elf: lib/uMQTT/libuMQTT.a
 app.elf: /home/kasper/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 app.elf: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Linking CXX executable app.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking CXX executable app.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/app.elf > app.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/app.elf >> app.dis
