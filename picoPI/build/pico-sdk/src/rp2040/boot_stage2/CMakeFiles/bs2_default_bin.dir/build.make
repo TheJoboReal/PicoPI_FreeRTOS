@@ -86,6 +86,6 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

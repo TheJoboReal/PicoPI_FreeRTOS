@@ -1,4 +1,4 @@
-# Install script for directory: /home/kasper/pico-sdk/lib/mbedtls/pkgconfig
+# Install script for directory: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/pkgconfig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

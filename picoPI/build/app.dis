@@ -47,11 +47,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  21 .debug_ranges 0000cb40  00000000  00000000  0006c600  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   000253eb  00000000  00000000  00079140  2**0
+ 22 .debug_line   00028a8a  00000000  00000000  00079140  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    000075ad  00000000  00000000  0009e52b  2**0
+ 23 .debug_str    00007e34  00000000  00000000  000a1bca  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  0000311c  00000000  00000000  000a5ad8  2**2
+ 24 .debug_frame  0000311c  00000000  00000000  000a9a00  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/app.elf:     file format elf32-littlearm

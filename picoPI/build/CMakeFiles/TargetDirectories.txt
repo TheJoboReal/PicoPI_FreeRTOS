@@ -1,4 +1,6 @@
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/app.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/picotoolForceReconfigure.dir
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/picotoolBuild.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
@@ -198,6 +200,3 @@
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/lib/uMQTT/CMakeFiles/uMQTT.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/lib/uMQTT/CMakeFiles/edit_cache.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/lib/uMQTT/CMakeFiles/rebuild_cache.dir

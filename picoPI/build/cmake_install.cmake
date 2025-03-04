@@ -41,7 +41,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/FREERTOS_KERNEL/cmake_install.cmake")
   include("/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/cmake_install.cmake")
-  include("/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/lib/uMQTT/cmake_install.cmake")
 
 endif()
 
