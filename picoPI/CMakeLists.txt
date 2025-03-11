@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 # Pull in SDK (must be before project)
-include(lib/pico-sdk/external/pico_sdk_import.cmake)
+include(lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
 include(lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
@@ -22,7 +22,7 @@ target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR}
     )
  
 # pull in common dependencies
-target_link_libraries(app pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
+target_link_libraries(app pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4 tinyusb_device tinyusb_board)
 
 # create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(app)
@@ -31,3 +31,4 @@ pico_add_extra_outputs(app)
 pico_enable_stdio_usb(app 1)
 pico_enable_stdio_uart(app 0)
 
+target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR}/src/inc)

@@ -1,6 +1,8 @@
+#include <stdio.h>
 #include "pico/stdlib.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "tusb.h"
 
 #define LED_PIN 0  // Built-in LED on Raspberry Pi Pico
 
@@ -16,9 +18,19 @@ void vBlinkTask() {
     }
 }
 
+void usbHelloTask(){
+    stdio_init_all;
+    while (1){
+        printf("Hello World\n");
+        vTaskDelay(500);
+    }
+    
+}
+
 void main() {
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
     xTaskCreate(vBlinkTask, "Blink Task", 128, NULL, 1, NULL);
+    xTaskCreate(usbHelloTask, "USB Hello Task", 128, NULL, 2, NULL);
     vTaskStartScheduler();
 }

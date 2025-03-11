@@ -1,6 +1,4 @@
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/app.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/picotoolForceReconfigure.dir
-/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/picotoolBuild.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/edit_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles/rebuild_cache.dir
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir

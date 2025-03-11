@@ -1,4 +1,4 @@
-# Install script for directory: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2_common/pico_time_adapter
+# Install script for directory: /home/kasper/pico-sdk/src/rp2_common/pico_time_adapter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

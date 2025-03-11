@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/blowfish.c.o: \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/blowfish.c \
+ /home/kasper/pico-sdk/lib/mbedtls/library/blowfish.c \
  /usr/include/stdc-predef.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -29,9 +29,9 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/blowfish.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
+ /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
