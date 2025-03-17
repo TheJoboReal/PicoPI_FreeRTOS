@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Install script for directory: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest
-=======
 # Install script for directory: /home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,10 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY MESSAGE_NEVER PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ DIR_PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest" FILES_MATCHING REGEX "/[^/]*\\.h$")
-=======
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY MESSAGE_NEVER PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ DIR_PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/include/everest" FILES_MATCHING REGEX "/[^/]*\\.h$")
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 endif()
 

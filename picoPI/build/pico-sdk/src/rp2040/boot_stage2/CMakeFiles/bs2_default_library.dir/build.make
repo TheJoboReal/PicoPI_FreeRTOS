@@ -71,11 +71,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/flags
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-<<<<<<< HEAD
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/python3.10 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2040/boot_stage2/pad_checksum -s 0xffffffff /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
-=======
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/python3.10 /home/kasper/.pico-sdk/src/rp2040/boot_stage2/pad_checksum -s 0xffffffff /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
@@ -108,10 +104,6 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean:
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
-<<<<<<< HEAD
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake --color=$(COLOR)
-=======
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/.pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend
 

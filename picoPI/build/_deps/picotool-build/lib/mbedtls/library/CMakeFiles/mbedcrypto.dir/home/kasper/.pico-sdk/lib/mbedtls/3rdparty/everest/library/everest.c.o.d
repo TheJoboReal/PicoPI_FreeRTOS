@@ -1,18 +1,9 @@
-<<<<<<<< HEAD:picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d
-lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o: \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c \
- /usr/include/stdc-predef.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-========
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o: \
  /home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c \
  /usr/include/stdc-predef.h \
  /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
->>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae:picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -43,15 +34,9 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-<<<<<<<< HEAD:picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecdh.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-========
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecdh.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
->>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae:picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -64,17 +49,10 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
-<<<<<<<< HEAD:picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest/x25519.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/include/everest/everest.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-========
  /home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/include/everest/x25519.h \
  /home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/include/everest/everest.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
->>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae:picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \

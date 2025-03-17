@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Install script for directory: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
-=======
 # Install script for directory: /home/kasper/.pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

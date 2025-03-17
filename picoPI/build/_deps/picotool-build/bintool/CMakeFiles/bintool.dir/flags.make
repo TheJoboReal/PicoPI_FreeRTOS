@@ -5,21 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DHAS_MBEDTLS=1 -DNO_PICO_PLATFORM=1
 
-<<<<<<< HEAD
-C_INCLUDES = -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/include -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors -isystem /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/boot_picobin_headers/include
-=======
 C_INCLUDES = -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool -I/home/kasper/.pico-sdk/lib/mbedtls/include -I/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/include -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors -isystem /home/kasper/.pico-sdk/src/common/boot_picobin_headers/include
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 C_FLAGS = -O3 -DNDEBUG -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/include
 
 CXX_DEFINES = -DHAS_MBEDTLS=1 -DNO_PICO_PLATFORM=1
 
-<<<<<<< HEAD
-CXX_INCLUDES = -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/include -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors -isystem /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/boot_picobin_headers/include
-=======
 CXX_INCLUDES = -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool -I/home/kasper/.pico-sdk/lib/mbedtls/include -I/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/include -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors -isystem /home/kasper/.pico-sdk/src/common/boot_picobin_headers/include
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 CXX_FLAGS = -O3 -DNDEBUG -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/include -std=gnu++14
 

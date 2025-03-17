@@ -68,15 +68,9 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
-<<<<<<< HEAD
-pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: ../lib/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
-=======
 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /home/kasper/.pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/kasper/.pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -92,10 +86,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-<<<<<<< HEAD
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
-=======
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/.pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

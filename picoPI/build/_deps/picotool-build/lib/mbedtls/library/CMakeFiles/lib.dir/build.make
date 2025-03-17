@@ -80,10 +80,6 @@ lib/mbedtls/library/CMakeFiles/lib.dir/clean:
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/clean
 
 lib/mbedtls/library/CMakeFiles/lib.dir/depend:
-<<<<<<< HEAD
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls/library /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
-=======
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src /home/kasper/.pico-sdk/lib/mbedtls/library /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls/library /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/depend
 

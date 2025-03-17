@@ -1,17 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: \
-<<<<<<< HEAD
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/ecdsa.c \
- /usr/include/stdc-predef.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-=======
  /home/kasper/.pico-sdk/lib/mbedtls/library/ecdsa.c \
  /usr/include/stdc-predef.h \
  /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -37,15 +29,9 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-<<<<<<< HEAD
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-=======
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -58,15 +44,9 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
-<<<<<<< HEAD
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-=======
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -79,15 +59,6 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-<<<<<<< HEAD
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/asn1write.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
-=======
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/asn1write.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
  /usr/include/string.h /usr/include/strings.h \
@@ -95,7 +66,6 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
@@ -116,8 +86,4 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-<<<<<<< HEAD
- /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/error.h
-=======
  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/error.h
->>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae

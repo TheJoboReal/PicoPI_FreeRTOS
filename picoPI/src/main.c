@@ -9,11 +9,12 @@
 const size_t BUFFER_SIZE = 32;
 #define LED_PIN 0
 
+void vBlinkTask() {
     for (;;) {
-        gpio_put(LED_PIN, 1);
-        vTaskDelay(pdMS_TO_TICKS(500));
-        gpio_put(LED_PIN, 0);
-        vTaskDelay(pdMS_TO_TICKS(500));
+        gpio_put(PICO_DEFAULT_LED_PIN, 1);
+        vTaskDelay(250);
+        gpio_put(PICO_DEFAULT_LED_PIN, 0);
+        vTaskDelay(250);
     }
 }
 
