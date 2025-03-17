@@ -85,4 +85,5 @@ CMakeFiles/app.dir/src/main.c.o: \
  /home/kasper/.FreeRTOS-Kernel/include/task.h \
  /home/kasper/.FreeRTOS-Kernel/include/list.h \
  /home/kasper/.FreeRTOS-Kernel/include/message_buffer.h \
- /home/kasper/.FreeRTOS-Kernel/include/stream_buffer.h
+ /home/kasper/.FreeRTOS-Kernel/include/stream_buffer.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/src/inc/defines.h
