@@ -10,8 +10,6 @@ project(app C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
-set(WIFI_SSID "Kasper-2.4GHz")
-set(WIFI_PASSWORD "3cc62d647")
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
 # Initialize the SDK
@@ -24,7 +22,11 @@ target_include_directories(app PRIVATE ${CMAKE_CURRENT_LIST_DIR}
 )
  
 # pull in common dependencies
-target_link_libraries(app pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
+target_link_libraries(app 
+    pico_stdlib 
+    FreeRTOS-Kernel 
+    FreeRTOS-Kernel-Heap4
+    )
 
 # create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(app)
@@ -32,3 +34,8 @@ pico_add_extra_outputs(app)
 # enable usb output, disable uart output
 pico_enable_stdio_usb(app 1)
 pico_enable_stdio_uart(app 1)
+
+target_compile_definitions(app PRIVATE
+    WIFI_SSID=\"${WIFI_SSID}\"
+    WIFI_PASSWORD=\"${WIFI_PASSWORD}\"
+)

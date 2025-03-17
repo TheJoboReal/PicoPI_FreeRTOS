@@ -2,11 +2,13 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+#define LED_PIN 0
+
 void vBlinkTask() {
     for (;;) {
-        gpio_put(PICO_DEFAULT_LED_PIN, 1);
+        gpio_put(LED_PIN, 1);
         vTaskDelay(250);
-        gpio_put(PICO_DEFAULT_LED_PIN, 0);
+        gpio_put(LED_PIN, 0);
         vTaskDelay(250);
     }
 }

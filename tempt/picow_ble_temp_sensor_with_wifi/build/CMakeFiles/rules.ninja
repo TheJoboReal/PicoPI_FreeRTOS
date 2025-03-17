@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: app
+# Project: picow_ble_temp_sensor
 # Configurations: Release
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__app_unscanned_Release
+rule ASM_COMPILER__picow_ble_temp_sensor_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__app_unscanned_Release
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__app_unscanned_Release
+rule C_COMPILER__picow_ble_temp_sensor_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__app_unscanned_Release
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__app_unscanned_Release
+rule CXX_COMPILER__picow_ble_temp_sensor_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -44,7 +44,85 @@ rule CXX_COMPILER__app_unscanned_Release
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__app_Release
+rule CXX_EXECUTABLE_LINKER__picow_ble_temp_sensor_Release
+  command = $PRE_LINK && /home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling ASM files.
+
+rule ASM_COMPILER__picow_ble_temp_reader_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  description = Building ASM object $out
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__picow_ble_temp_reader_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__picow_ble_temp_reader_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__picow_ble_temp_reader_Release
+  command = $PRE_LINK && /home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling ASM files.
+
+rule ASM_COMPILER__picow_ble_temp_sensor_with_wifi_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  description = Building ASM object $out
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__picow_ble_temp_sensor_with_wifi_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__picow_ble_temp_sensor_with_wifi_unscanned_Release
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__picow_ble_temp_sensor_with_wifi_Release
   command = $PRE_LINK && /home/kasper/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
