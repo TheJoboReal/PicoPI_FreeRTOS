@@ -4,7 +4,11 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
+<<<<<<< HEAD
 CXX_INCLUDES = -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf2uf2 -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors -isystem /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/boot_uf2_headers/include
+=======
+CXX_INCLUDES = -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf2uf2 -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf -I/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors -isystem /home/kasper/.pico-sdk/src/common/boot_uf2_headers/include
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

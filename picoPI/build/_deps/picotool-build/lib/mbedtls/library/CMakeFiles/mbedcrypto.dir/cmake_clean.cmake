@@ -63,12 +63,21 @@ file(REMOVE_RECURSE
   "CMakeFiles/mbedcrypto.dir/hkdf.c.o.d"
   "CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o"
   "CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o.d"
+<<<<<<< HEAD
   "CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o"
   "CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o.d"
   "CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o"
   "CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d"
   "CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o"
   "CMakeFiles/mbedcrypto.dir/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o.d"
+=======
+  "CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o"
+  "CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o.d"
+  "CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o"
+  "CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o.d"
+  "CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o"
+  "CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o.d"
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
   "CMakeFiles/mbedcrypto.dir/md.c.o"
   "CMakeFiles/mbedcrypto.dir/md.c.o.d"
   "CMakeFiles/mbedcrypto.dir/md2.c.o"

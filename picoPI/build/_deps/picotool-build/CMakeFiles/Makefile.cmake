@@ -7,6 +7,24 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/include/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/library/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/pkgconfig/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/lib/mbedtls/pkgconfig/JoinPaths.cmake"
+  "/home/kasper/.pico-sdk/lib/mbedtls/pkgconfig/mbedcrypto.pc.in"
+  "/home/kasper/.pico-sdk/lib/mbedtls/pkgconfig/mbedtls.pc.in"
+  "/home/kasper/.pico-sdk/lib/mbedtls/pkgconfig/mbedx509.pc.in"
+  "/home/kasper/.pico-sdk/pico_sdk_version.cmake"
+  "/home/kasper/.pico-sdk/src/common/boot_picobin_headers/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/src/common/boot_picoboot_headers/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/src/common/boot_uf2_headers/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/src/common/pico_binary_info/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/src/common/pico_usb_reset_interface_headers/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/src/host/pico_platform/CMakeLists.txt"
+  "/home/kasper/.pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
@@ -21,6 +39,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/nlohmann_json/CMakeLists.txt"
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/whereami/CMakeLists.txt"
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/picoboot_connection/CMakeLists.txt"
+<<<<<<< HEAD
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/CMakeLists.txt"
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/3rdparty/everest/CMakeLists.txt"
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/CMakeLists.txt"
@@ -39,6 +58,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/pico_usb_reset_interface_headers/CMakeLists.txt"
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/host/pico_platform/CMakeLists.txt"
   "/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeLists.txt"
+=======
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"

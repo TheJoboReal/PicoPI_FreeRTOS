@@ -3,7 +3,11 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.9.3-76060903-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
+<<<<<<< HEAD
 include("/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake")
+=======
+include("/home/kasper/.pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake")
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

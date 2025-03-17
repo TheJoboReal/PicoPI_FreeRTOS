@@ -64,7 +64,11 @@ CMAKE_BINARY_DIR = /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/
 include lib/mbedtls/CMakeFiles/apidoc.dir/compiler_depend.make
 
 lib/mbedtls/CMakeFiles/apidoc:
+<<<<<<< HEAD
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/doxygen && doxygen mbedtls.doxyfile
+=======
+	cd /home/kasper/.pico-sdk/lib/mbedtls/doxygen && doxygen mbedtls.doxyfile
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 apidoc: lib/mbedtls/CMakeFiles/apidoc
 apidoc: lib/mbedtls/CMakeFiles/apidoc.dir/build.make
@@ -79,6 +83,10 @@ lib/mbedtls/CMakeFiles/apidoc.dir/clean:
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/clean
 
 lib/mbedtls/CMakeFiles/apidoc.dir/depend:
+<<<<<<< HEAD
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src /home/kasper/.pico-sdk/lib/mbedtls /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/depend
 

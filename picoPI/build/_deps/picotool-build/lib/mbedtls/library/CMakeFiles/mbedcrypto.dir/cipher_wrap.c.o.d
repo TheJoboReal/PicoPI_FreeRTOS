@@ -1,9 +1,17 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: \
+<<<<<<< HEAD
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/cipher_wrap.c \
  /usr/include/stdc-predef.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+=======
+ /home/kasper/.pico-sdk/lib/mbedtls/library/cipher_wrap.c \
+ /usr/include/stdc-predef.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -29,10 +37,17 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+<<<<<<< HEAD
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/cipher_internal.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+=======
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/cipher_internal.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -45,6 +60,7 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+<<<<<<< HEAD
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/chachapoly.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/poly1305.h \
@@ -57,6 +73,20 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o: \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/gcm.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ccm.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
+=======
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/chachapoly.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/poly1305.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/chacha20.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/camellia.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/des.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/gcm.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ccm.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

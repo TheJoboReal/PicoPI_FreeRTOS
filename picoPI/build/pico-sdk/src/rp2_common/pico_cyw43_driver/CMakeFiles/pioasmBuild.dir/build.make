@@ -92,7 +92,11 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBui
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cache-Release.cmake
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'pioasmBuild'"
+<<<<<<< HEAD
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPIOASM_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm-install -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -C/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cache-Release.cmake /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/tools/pioasm
+=======
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPIOASM_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm-install -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -C/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-cache-Release.cmake /home/kasper/.pico-sdk/tools/pioasm
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm && /usr/bin/cmake -E touch /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir
@@ -110,7 +114,11 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBui
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'pioasmBuild'"
+<<<<<<< HEAD
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /usr/bin/cmake -E make_directory /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/tools/pioasm
+=======
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /usr/bin/cmake -E make_directory /home/kasper/.pico-sdk/tools/pioasm
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /usr/bin/cmake -E make_directory /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /usr/bin/cmake -E make_directory /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm-install
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /usr/bin/cmake -E make_directory /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp
@@ -150,6 +158,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/clean:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/depend:
+<<<<<<< HEAD
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/.pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/depend
 

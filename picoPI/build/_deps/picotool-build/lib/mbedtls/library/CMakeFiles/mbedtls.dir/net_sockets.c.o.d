@@ -1,9 +1,17 @@
 lib/mbedtls/library/CMakeFiles/mbedtls.dir/net_sockets.c.o: \
+<<<<<<< HEAD
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/net_sockets.c \
  /usr/include/stdc-predef.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+=======
+ /home/kasper/.pico-sdk/lib/mbedtls/library/net_sockets.c \
+ /usr/include/stdc-predef.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -31,8 +39,13 @@ lib/mbedtls/library/CMakeFiles/mbedtls.dir/net_sockets.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+<<<<<<< HEAD
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+=======
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -67,6 +80,7 @@ lib/mbedtls/library/CMakeFiles/mbedtls.dir/net_sockets.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+<<<<<<< HEAD
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/net_sockets.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ssl.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
@@ -85,6 +99,26 @@ lib/mbedtls/library/CMakeFiles/mbedtls.dir/net_sockets.c.o: \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/dhm.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecdh.h \
  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+=======
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/net_sockets.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ssl.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/x509_crt.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/x509.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/x509_crl.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/dhm.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecdh.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \

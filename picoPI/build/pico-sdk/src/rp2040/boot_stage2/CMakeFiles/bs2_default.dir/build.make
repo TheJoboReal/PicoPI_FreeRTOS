@@ -70,6 +70,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/progress.make
 include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/flags.make
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/flags.make
+<<<<<<< HEAD
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o: ../lib/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.o   -c /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S
@@ -81,6 +82,19 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
+=======
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o: /home/kasper/.pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.o   -c /home/kasper/.pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S
+
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bs2_default.dir/compile_time_choice.S.i"
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/kasper/.pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S > CMakeFiles/bs2_default.dir/compile_time_choice.S.i
+
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/kasper/.pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 
 # Object files for target bs2_default
 bs2_default_OBJECTS = \
@@ -91,7 +105,11 @@ bs2_default_EXTERNAL_OBJECTS =
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o
 pico-sdk/src/rp2040/boot_stage2/bs2_default.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make
+<<<<<<< HEAD
 pico-sdk/src/rp2040/boot_stage2/bs2_default.elf: ../lib/pico-sdk/src/rp2040/boot_stage2/boot_stage2.ld
+=======
+pico-sdk/src/rp2040/boot_stage2/bs2_default.elf: /home/kasper/.pico-sdk/src/rp2040/boot_stage2/boot_stage2.ld
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 pico-sdk/src/rp2040/boot_stage2/bs2_default.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bs2_default.dir/link.txt --verbose=$(VERBOSE)
@@ -107,6 +125,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/depend:
+<<<<<<< HEAD
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI /home/kasper/.pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 41415cc327c9e9a291be8a5a081c7675567939ae
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/depend
 
