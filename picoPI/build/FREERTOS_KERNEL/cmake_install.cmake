@@ -1,4 +1,4 @@
-# Install script for directory: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
+# Install script for directory: /home/kasper/.FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

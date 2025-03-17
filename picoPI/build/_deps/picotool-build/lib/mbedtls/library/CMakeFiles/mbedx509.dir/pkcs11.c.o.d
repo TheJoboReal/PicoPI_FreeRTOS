@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/pkcs11.c \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/pkcs11.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pkcs11.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/pkcs11.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \

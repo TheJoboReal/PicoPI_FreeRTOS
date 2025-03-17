@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/ecp.c \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/ecp.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -29,8 +29,8 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -43,7 +43,7 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/threading.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/threading.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -71,20 +71,20 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/bn_mul.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/ecp_invasive.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bn_mul.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/ecp_invasive.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecp_internal.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md.h
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp_internal.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md.h

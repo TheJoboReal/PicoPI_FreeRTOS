@@ -345,7 +345,7 @@ Mbed TLS_BINARY_DIR:STATIC=/home/kasper/Documents/Civilingenioer_Robotteknologi/
 Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Mbed TLS_SOURCE_DIR:STATIC=/home/kasper/pico-sdk/lib/mbedtls
+Mbed TLS_SOURCE_DIR:STATIC=/home/kasper/.pico-sdk/lib/mbedtls
 
 //No help, variable specified on the command line.
 PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
@@ -354,7 +354,7 @@ PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/home/kasper/pico-sdk
+PICO_SDK_PATH:FILEPATH=/home/kasper/.pico-sdk
 
 //Allow unsafe builds. These builds ARE NOT SECURE.
 UNSAFE_BUILD:BOOL=OFF

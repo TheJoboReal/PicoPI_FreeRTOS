@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \

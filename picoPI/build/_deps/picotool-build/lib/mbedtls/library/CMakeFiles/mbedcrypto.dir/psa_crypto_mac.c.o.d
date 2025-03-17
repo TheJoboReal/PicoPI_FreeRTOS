@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/psa_crypto_mac.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -29,17 +29,17 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_platform.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config_psa.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_types.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_values.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_sizes.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_struct.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/cmac.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_platform.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config_psa.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_types.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_values.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_sizes.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_struct.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/cmac.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -52,24 +52,24 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/gcm.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_driver_contexts_primitives.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_driver_common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_sizes.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_builtin_primitives.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md2.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md4.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md5.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ripemd160.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha1.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_driver_contexts_composites.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_builtin_composites.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_extra.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_compat.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/gcm.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_driver_contexts_primitives.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_driver_common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_sizes.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_builtin_primitives.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md2.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md4.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md5.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ripemd160.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha1.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_driver_contexts_composites.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_builtin_composites.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_extra.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_compat.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -82,13 +82,13 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/psa_crypto_core.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_se_driver.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/psa/crypto_driver_common.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/psa_crypto_mac.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/psa_crypto_core.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_se_driver.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/psa/crypto_driver_common.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/psa_crypto_cipher.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/library/psa_crypto_mac.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/error.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h

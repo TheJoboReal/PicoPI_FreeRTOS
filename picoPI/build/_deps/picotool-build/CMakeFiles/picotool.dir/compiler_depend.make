@@ -734,21 +734,21 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kasper/Documents/Civilingenioer_Robott
   /usr/include/c++/11/cstdarg \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/kasper/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
-  /home/kasper/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
-  /home/kasper/pico-sdk/src/host/pico_platform/include/pico/platform.h \
-  /home/kasper/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /home/kasper/.pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/kasper/.pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /home/kasper/.pico-sdk/src/host/pico_platform/include/pico/platform.h \
+  /home/kasper/.pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
-  /home/kasper/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/kasper/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/kasper/.pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/kasper/.pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/addresses.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool/bintool.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /usr/include/c++/11/stdlib.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -758,18 +758,18 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kasper/Documents/Civilingenioer_Robott
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
-  /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+  /home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/elf_file.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
@@ -779,13 +779,13 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kasper/Documents/Civilingenioer_Robott
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/addresses.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool/metadata.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/kasper/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/kasper/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/kasper/.pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/kasper/.pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/kasper/.pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/elf.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/otp.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
@@ -821,7 +821,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/kasper/Documents/Civilingenioer_Robott
   /usr/include/c++/11/bits/indirect_array.h \
   /usr/include/c++/11/version \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors/errors.h \
-  /home/kasper/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /home/kasper/.pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
   /usr/include/x86_64-linux-gnu/bits/ioctls.h \
   /usr/include/x86_64-linux-gnu/asm/ioctls.h \
@@ -1119,9 +1119,15 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/asm-generic/ioctls.h:
 
-/home/kasper/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+
+/home/kasper/.pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors/errors.h:
+
+/usr/include/c++/11/version:
+
+/usr/include/c++/11/bits/mask_array.h:
 
 /usr/include/c++/11/bits/gslice.h:
 
@@ -1149,17 +1155,15 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/c++/11/unordered_map:
 
-/usr/include/c++/11/version:
-
-/home/kasper/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
-
-/home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
-/home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+/home/kasper/.pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
-/home/kasper/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+/home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
+/home/kasper/.pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -1169,25 +1173,17 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/elf_file.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
 
-/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
 
-/home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/md.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
-
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
-
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
-
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
-
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
@@ -1199,23 +1195,19 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
-
-/usr/include/c++/11/bits/mask_array.h:
-
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool/bintool.h:
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/addresses.h:
 
-/home/kasper/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+/home/kasper/.pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
-/home/kasper/pico-sdk/src/host/pico_platform/include/pico/platform.h:
+/home/kasper/.pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
 
-/home/kasper/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+/home/kasper/.pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
-/home/kasper/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
+/home/kasper/.pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
@@ -1232,6 +1224,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 /usr/include/c++/11/bits/regex_executor.h:
 
 /usr/include/c++/11/bits/regex_compiler.h:
+
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
 /usr/include/c++/11/bits/regex_scanner.tcc:
 
@@ -1257,6 +1251,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/c++/11/bitset:
 
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
+
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
@@ -1273,15 +1269,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/home/kasper/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
@@ -1299,6 +1293,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
+
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -1313,11 +1309,15 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/c++/11/cstdlib:
 
+/home/kasper/.pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/11/bit:
 
 /usr/include/assert.h:
+
+/home/kasper/.pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1337,8 +1337,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/c++/11/ext/atomicity.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
-
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
@@ -1347,9 +1345,9 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/config.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/pthread.h:
 
@@ -1404,6 +1402,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/kasper/Documents/Civilingenioer_Robo
 /usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
@@ -1511,6 +1511,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
+/home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
 /usr/include/c++/11/cstdint:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -1530,6 +1532,8 @@ data_locs.cpp:
 /usr/include/c++/11/bits/concept_check.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
@@ -1593,8 +1597,6 @@ data_locs.cpp:
 
 /usr/include/features-time64.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
-
 /usr/include/c++/11/bits/regex_automaton.tcc:
 
 /usr/include/c++/11/ext/string_conversions.h:
@@ -1606,8 +1608,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/bits/invoke.h:
-
-/home/kasper/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -1697,6 +1697,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/align.h:
 
+/home/kasper/.pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
@@ -1710,8 +1712,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/home/kasper/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -1754,8 +1754,6 @@ data_locs.cpp:
 /usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/home/kasper/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -1837,6 +1835,8 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/indirect_array.h:
 
+/home/kasper/.pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
+
 /usr/include/c++/11/cinttypes:
 
 /usr/include/c++/11/stdlib.h:
@@ -1867,8 +1867,6 @@ data_locs.cpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
-/home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
-
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/bits/uses_allocator.h:
@@ -1892,6 +1890,8 @@ data_locs.cpp:
 /usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/home/kasper/.pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/bintool/metadata.h:
 

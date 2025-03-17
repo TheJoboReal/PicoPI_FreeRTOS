@@ -1,4 +1,4 @@
-# Install script for directory: /home/kasper/pico-sdk
+# Install script for directory: /home/kasper/.pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

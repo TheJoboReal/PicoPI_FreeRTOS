@@ -1033,77 +1033,77 @@ hmac_drbg.c.s:
 	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.s
 .PHONY : hmac_drbg.c.s
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o
 
 # target to build an object file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.o
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i
 
 # target to preprocess a source file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.i
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s
 
 # target to generate assembly for a file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c.s
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o
 
 # target to build an object file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.o
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i
 
 # target to preprocess a source file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.i
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s
 
 # target to generate assembly for a file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c.s
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o
 
 # target to build an object file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.o
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i
 
 # target to preprocess a source file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.i
 
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s: home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s: home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s
 
 # target to generate assembly for a file
-home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s:
-	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
-.PHONY : home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
+home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s:
+	cd /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
+.PHONY : home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c.s
 
 md.o: md.c.o
 .PHONY : md.o
@@ -2711,15 +2711,15 @@ help:
 	@echo "... hmac_drbg.o"
 	@echo "... hmac_drbg.i"
 	@echo "... hmac_drbg.s"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i"
-	@echo "... home/kasper/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.o"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.i"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.s"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.o"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.i"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.s"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.o"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.i"
+	@echo "... home/kasper/.pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.s"
 	@echo "... md.o"
 	@echo "... md.i"
 	@echo "... md.s"
