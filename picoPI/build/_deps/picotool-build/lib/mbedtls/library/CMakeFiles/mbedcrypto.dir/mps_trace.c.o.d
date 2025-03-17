@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/mps_trace.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/mps_trace.c \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/mps_trace.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \

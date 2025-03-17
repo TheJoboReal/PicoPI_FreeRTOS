@@ -1,4 +1,4 @@
-# Install script for directory: /home/kasper/pico-sdk/src/common/hardware_claim
+# Install script for directory: /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/hardware_claim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

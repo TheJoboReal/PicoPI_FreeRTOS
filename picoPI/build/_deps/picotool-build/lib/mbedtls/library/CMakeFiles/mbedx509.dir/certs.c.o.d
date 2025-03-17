@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/certs.c \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/certs.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -29,4 +29,4 @@ lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/certs.h
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/certs.h

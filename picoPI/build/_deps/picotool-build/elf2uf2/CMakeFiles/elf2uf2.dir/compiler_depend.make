@@ -237,7 +237,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /home/kasper/Documents/Civilingeni
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /home/kasper/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
   /usr/include/assert.h \
   /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/elf/elf_file.h \
   /usr/include/c++/11/iostream \
@@ -251,6 +251,8 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /home/kasper/Documents/Civilingeni
 /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/_deps/picotool-src/errors/errors.h:
 
 /usr/include/c++/11/sstream:
+
+/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -685,8 +687,6 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /home/kasper/Documents/Civilingeni
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/assert.h:
-
-/home/kasper/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
 
 /usr/include/c++/11/bit:
 

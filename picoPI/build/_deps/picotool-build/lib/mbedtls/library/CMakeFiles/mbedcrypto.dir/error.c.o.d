@@ -1,9 +1,9 @@
 lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.o: \
- /home/kasper/pico-sdk/lib/mbedtls/library/error.c \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/error.c \
  /usr/include/stdc-predef.h \
- /home/kasper/pico-sdk/lib/mbedtls/library/common.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/library/common.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -29,9 +29,9 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -79,46 +79,46 @@ lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/base64.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/camellia.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ccm.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/chacha20.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/chachapoly.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/poly1305.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/des.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/dhm.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/gcm.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/hkdf.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/md5.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/net_sockets.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ssl.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ssl_ciphersuites.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/x509_crt.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/x509.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/x509_crl.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ecdh.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/oid.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/padlock.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pem.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pkcs12.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/pkcs5.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/ripemd160.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha1.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /home/kasper/pico-sdk/lib/mbedtls/include/mbedtls/xtea.h
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/arc4.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/asn1.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/base64.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/blowfish.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/camellia.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ccm.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/cipher.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/chacha20.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/chachapoly.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/poly1305.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/des.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/dhm.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/gcm.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/hkdf.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/hmac_drbg.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/md5.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/net_sockets.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ssl.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/x509_crt.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/x509.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/x509_crl.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ecdh.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/oid.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/padlock.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/pem.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/pkcs12.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/pkcs5.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/ripemd160.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/sha1.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/lib/pico-sdk/lib/mbedtls/include/mbedtls/xtea.h
