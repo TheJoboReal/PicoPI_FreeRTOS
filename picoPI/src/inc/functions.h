@@ -9,9 +9,11 @@
 #include "task.h"
 #include "message_buffer.h"
 #include "defines.h"
+#include "queues.h"
 
 #endif // FUNCTIONS_H
 
+const size_t BUFFER_SIZE = 32;
 
 void vBlinkTask() {
     gpio_init(PICO_DEFAULT_LED_PIN);
@@ -30,7 +32,7 @@ void vReceiverTask(void *pvParameters) {
     for (;;) {
         if (fgets(message, BUFFER_SIZE, stdin) != NULL) {  // Read from USB serial
             printf("Received: %s", message);  // Print received message
-            xQueueSend(commandBufferQueue, &message, 1)
+            xQueueSend(commandBufferQueue, &message, 1);
         }
     }
 }
