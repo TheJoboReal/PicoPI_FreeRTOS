@@ -12,4 +12,4 @@
 
 #endif // FUNCTIONS_H
 
-QueueHandle_t commandBufferQueue;
+QueueHandle_t commandQueue;
