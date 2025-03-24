@@ -20,12 +20,12 @@ void main() {
     busy_wait_ms(1000);  // Delay for stabilization
 
 
-    commandQueue = xQueueCreate(COMMAND_QUEUE_SIZE, sizeof(int32_t));
+    commandQueue = xQueueCreate(10, sizeof(char[BUFFER_SIZE]));
 
     // Create tasks
     xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
     xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 2, NULL);
-    xTaskCreate(vCommandTask, "Command Task", 128, (void *)BUFFER_SIZE, 3, NULL);
+    xTaskCreate(vCommandRunTask, "Command Run Task", 128, (void *)BUFFER_SIZE, 3, NULL);
     
     // Start the scheduler
     vTaskStartScheduler();

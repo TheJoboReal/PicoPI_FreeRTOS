@@ -14,10 +14,7 @@
 #endif //COMMANDS_H
 
 void DRV(char *commandData){
-    // Drive command
-    // Command data should be in the format of "DRV DIRECTION SPEED INTERVAL"
-    // DIRECTION is either F or B for forward and backward
-    // SPEED is a number from 0 to 100
+    // Command format: "DRV DIRECTION SPEED INTERVAL"
     int direction;
     if (commandData[0] == 'F') {
         direction = 1;  // Forward
@@ -27,24 +24,37 @@ void DRV(char *commandData){
         printf("Invalid direction\n");
         return;
     }
-    int pwm_pct = atoi(&commandData[2]);  // Speed is the number after the space in the command data
-    int steps = atoi(&commandData[4]);   // Interval is the number after the second space in the command data
-    printf("Drive command received: %c %d\n", direction, pwm_pct);
+
+    int pwm_pct = atoi(&commandData[2]);
+    int steps = atoi(&commandData[4]); 
+
+    printf("DRV command received: %c %d %d\n", direction, pwm_pct, steps);
 
     StepperMotor motor;
-
     init_stepper(&motor, pins, 1, 15, MICRO_STEPS);
     move_stepper(&motor, steps, direction, STEP_DELAY_US);
-
 }
 
-void STP(){
+void STOP(){
     // Stop command
     // Stops the robot
     printf("Stop command received\n");
     stop_stepper(pins);
 
 
+}
+
+void process_command(int command_id, char *message) {
+    switch (command_id) {
+        case DRV_COMMAND:
+            DRV(message);
+            break;
+        case STOP_COMMAND:
+            STOP();
+            break;
+        default:
+            printf("Invalid command\n");
+    }
 }
 
 
