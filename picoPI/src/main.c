@@ -9,6 +9,7 @@
 #include "inc/defines.h"
 #include "inc/tasks.h"
 #include "inc/queues.h"
+#include "inc/pwm.h"
 
 
 
@@ -17,6 +18,7 @@
 void main() {
     stdio_init_all();  // Initializes USB serial communication
     busy_wait_ms(1000);  // Delay for stabilization
+
 
     commandQueue = xQueueCreate(COMMAND_QUEUE_SIZE, sizeof(int32_t));
 

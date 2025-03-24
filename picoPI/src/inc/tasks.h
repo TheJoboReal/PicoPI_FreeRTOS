@@ -42,7 +42,7 @@ void vCommandTask(){
     // Task that runs through and executes the command calls in the commandQueue
     // Commands are strings that contain a commmand ID and some maybe some data for the command(Drive direction or speed perhaps)
     char commandMessage[BUFFER_SIZE];
-    char command[3];
+    int command;
     char commandData[16];
 
 
@@ -52,13 +52,19 @@ void vCommandTask(){
             printf("Received command: %s", command);
 
             // Take the first 3 bits and load into command
+            command = 0;
             for(int i = 0; i < 3; i++){
-                command[i] = commandMessage[i];
-            }
+                command = (command << 1) | (commandMessage[i] - '0');
+                }
 
             // Case to call the corresponding command function
             switch(command){
-                case "DRV":
+                case 0:
+                    // Stop command
+                    
+                    break;
+
+                case 1:
                     // Drive command
                     // Load the data into commandData
                     for(int i = 3; i < 11; i++){
@@ -68,12 +74,7 @@ void vCommandTask(){
                     
                     break;
 
-                case "STP":
-                    // Stop command
-                    
-                    break;
-
-                case "TRN":
+                case 2:
                     // Turn command
                     // Load the data into commandData
                     for(int i = 3; i < 11; i++){
