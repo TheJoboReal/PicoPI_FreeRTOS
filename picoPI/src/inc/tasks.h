@@ -33,10 +33,10 @@ void vBlinkTask() {
 
 void vReceiverTask(void *pvParameters) {
     char commandMessage[BUFFER_SIZE];
-    
+
     for (;;) {
         // Read command from USB serial
-        if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {
+        if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {    // Read command from stdin
             int length = strlen(commandMessage);
 
             // Ensure the message is long enough for both start and end flags
@@ -50,6 +50,9 @@ void vReceiverTask(void *pvParameters) {
                 commandMessage[length - 1] = '\0';
                 length--;
             }
+
+            // Print raw received command
+            printf("Raw received command: %s\n", commandMessage);
 
             // Check for start flag "0000"
             if (!(commandMessage[0] == '0' && commandMessage[1] == '0' &&
@@ -72,28 +75,26 @@ void vReceiverTask(void *pvParameters) {
                 continue;
             }
 
-            char processedCommand[newLength + 1];  // +1 for null terminator
-            for (int i = 0; i < newLength; i++) {
-                processedCommand[i] = commandMessage[i + 4];  // Shift left by 4 to remove start flag
-            }
-            processedCommand[newLength] = '\0';  // Null terminate
-
-            printf("Processed command: %s\n", processedCommand);
-
-            // Allocate memory to store the command in the queue
-            char *commandCopy = pvPortMalloc(newLength + 1);
-            if (commandCopy == NULL) {
+            // Allocate memory for the processed command
+            char *processedCommand = (char *)pvPortMalloc(newLength + 1);
+            if (processedCommand == NULL) {
                 printf("Memory allocation failed\n");
                 continue;
             }
-            strcpy(commandCopy, processedCommand);  // Copy the processed command to the allocated memory
 
-            // Send to queue
-            if (xQueueSend(commandQueue, &commandCopy, portMAX_DELAY) != pdTRUE) {
+            // Copy processed command without flags
+            strncpy(processedCommand, &commandMessage[4], newLength);
+            processedCommand[newLength] = '\0';
+
+            // Debugging: Print cleaned command
+            printf("Processed command: %s\n", processedCommand);
+
+            // Send pointer to queue
+            if (xQueueSend(commandQueue, &processedCommand, portMAX_DELAY) != pdTRUE) {
                 printf("Error sending command to queue\n");
-                vPortFree(commandCopy);
+                vPortFree(processedCommand);
             } else {
-                printf("Command successfully queued: %s\n", processedCommand);
+                // printf("Command successfully queued: %s\n", processedCommand);
             }
         }
         vTaskDelay(pdMS_TO_TICKS(100));
@@ -102,59 +103,50 @@ void vReceiverTask(void *pvParameters) {
 
 
 
+
 void vCommandRunTask(void *pvParameters) {
-    char commandMessage[BUFFER_SIZE];
-    char commandData[16];
+    char *commandMessage;  // Pointer to hold the received command
 
-    for(;;) {
+    for (;;) {
+        // Receive pointer to command string from queue
         if (xQueueReceive(commandQueue, &commandMessage, portMAX_DELAY) == pdTRUE) {
-            printf("Received Command from queue: %s\n", commandMessage);
-            
-            // Extract the command ID 
-            int command = commandMessage[0] - '0';  // Convert char to int
+            printf("Received Command from queue:%s\n", commandMessage);
 
-            // Extract the command data
-            int i = 1;
-            int paramIndex = 0;
-            
+            // Trim leading spaces to find the actual command ID
+            char *ptr = commandMessage;
+            while (*ptr == ' ') ptr++;  // Move past spaces
+
+            // Extract command ID
+            if (*ptr < '0' || *ptr > '9') {     // Check if it's a valid digit
+                printf("Invalid command ID: %c\n", *ptr);
+                vPortFree(commandMessage);      // Release memory
+                continue;
+            }
+
+            int command = *ptr - '0';  // Convert char to integer
+
             printf("Command ID: %d\n", command);
 
-            // Extract command data, stop at the first space or end of the string
-            while (commandMessage[i] != '\0' && commandMessage[i] != '\n' && paramIndex < sizeof(commandData) - 1) {
-                if (commandMessage[i] == ' ') {
-                    // Skip spaces between parameters
-                    i++;
-                    continue;
-                }
-                commandData[paramIndex++] = commandMessage[i++];
-            }
-            commandData[paramIndex] = '\0';
-
             // Process the command
-            switch(command) {
+            switch (command) {
                 case 0:
-                    // Stop command
                     printf("Executing Stop command\n");
-                    STOP();  // Implement your stop function here
+                    STOP();
                     break;
-
                 case 1:
-                    // Drive command
-                    printf("Executing Drive command: ");
-                    printCommand(commandData);
-                    DRV(commandData);  // Implement your drive function here
+                    printf("Executing Drive command: %s\n", commandMessage + 2);
+                    DRV(commandMessage + 2);
                     break;
-
                 case 2:
-                    // Turn command
-                    printf("Executing Turn command: ");
+                    printf("Executing Turn command: %s\n", commandMessage + 2);
                     break;
-
                 default:
-                    // Command not recognized
-                    printf("Command not recognized:");
+                    printf("Command not recognized: %s\n", commandMessage);
                     break;
             }
+
+            // Free allocated memory after processing
+            vPortFree(commandMessage);
         }
         vTaskDelay(pdMS_TO_TICKS(100));
     }
