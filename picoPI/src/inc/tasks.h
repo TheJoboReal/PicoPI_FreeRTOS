@@ -136,6 +136,7 @@ void vCommandRunTask(void *pvParameters) {
                 case 1:
                     printf("Executing Drive command: %s\n", commandMessage + 2);
                     DRV(commandMessage + 2);
+                    // printf("Drive command executed\n");  // TODO: den her line crasher pico'en ved first message sent
                     break;
                 case 2:
                     printf("Executing Turn command: %s\n", commandMessage + 2);
