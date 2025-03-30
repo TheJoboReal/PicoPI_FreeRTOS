@@ -51,13 +51,6 @@ void vReceiverTask(void *pvParameters) {
                 length--;
             }
 
-            // Debugging: Print raw received command
-            printf("Raw received command: ");
-            for (int i = 0; i < length; i++) {
-                printf("%c", commandMessage[i]);
-            }
-            printf("\n");
-
             // Check for start flag "0000"
             if (!(commandMessage[0] == '0' && commandMessage[1] == '0' &&
                   commandMessage[2] == '0' && commandMessage[3] == '0')) {
@@ -85,7 +78,6 @@ void vReceiverTask(void *pvParameters) {
             }
             processedCommand[newLength] = '\0';  // Null terminate
 
-            // Debugging: Print cleaned command
             printf("Processed command: %s\n", processedCommand);
 
             // Allocate memory to store the command in the queue
@@ -94,7 +86,7 @@ void vReceiverTask(void *pvParameters) {
                 printf("Memory allocation failed\n");
                 continue;
             }
-            strcpy(commandCopy, processedCommand);
+            strcpy(commandCopy, processedCommand);  // Copy the processed command to the allocated memory
 
             // Send to queue
             if (xQueueSend(commandQueue, &commandCopy, portMAX_DELAY) != pdTRUE) {
@@ -116,20 +108,19 @@ void vCommandRunTask(void *pvParameters) {
 
     for(;;) {
         if (xQueueReceive(commandQueue, &commandMessage, portMAX_DELAY) == pdTRUE) {
-            printf("Processing command: ");
-            printCommand(commandMessage);
+            printf("Received Command from queue: %s\n", commandMessage);
             
             // Extract the command ID 
-            int command = commandMessage[0];
+            int command = commandMessage[0] - '0';  // Convert char to int
 
             // Extract the command data
-            int i = 2;
+            int i = 1;
             int paramIndex = 0;
             
+            printf("Command ID: %d\n", command);
+
             // Extract command data, stop at the first space or end of the string
             while (commandMessage[i] != '\0' && commandMessage[i] != '\n' && paramIndex < sizeof(commandData) - 1) {
-                printf("Processing command: ");
-                printCommand(commandMessage);
                 if (commandMessage[i] == ' ') {
                     // Skip spaces between parameters
                     i++;
