@@ -40,6 +40,7 @@ void STOP(){
     // Stops the robot
     printf("Stop command received\n");
     stop_stepper(pins);
+    printf("Stopped Robot\n");
 
 
 }

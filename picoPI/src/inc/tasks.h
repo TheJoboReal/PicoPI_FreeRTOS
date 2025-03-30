@@ -8,13 +8,16 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "message_buffer.h"
+
 #include "defines.h"
 #include "queues.h"
 #include "commands.h"
+#include "functions.h"
 
 #endif // FUNCTIONS_H
 
 const size_t BUFFER_SIZE = 64;
+
 
 void vBlinkTask() {
     gpio_init(PICO_DEFAULT_LED_PIN);
@@ -35,19 +38,31 @@ void vReceiverTask(void *pvParameters) {
     for(;;) {
         // Read command from USB serial
         if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {
-            // Ensure the command message is null-terminated
-            commandMessage[strcspn(commandMessage, "\n")] = '\0'; // Remove newline character
+
+            // Check for start and end flags
+            if (commandMessage[0] != '0' || commandMessage[1] != '0' || commandMessage[2] != '0' || commandMessage[3] != '0' ||
+                commandMessage[strlen(commandMessage) - 5] != '0' || commandMessage[strlen(commandMessage) - 4] != '0' ||
+                commandMessage[strlen(commandMessage) - 3] != '0' || commandMessage[strlen(commandMessage) - 2] != '0') {
+                printf("Invalid command format: missing start or end flag\n");
+                continue;
+            }
+
+            // Remove the start and end flags
+            memmove(commandMessage, commandMessage + 4, strlen(commandMessage) - 8);
+            commandMessage[strlen(commandMessage) - 8] = '\0';
             
             // Send the message to the queue
             if (xQueueSend(commandQueue, &commandMessage, portMAX_DELAY) != pdTRUE) {
                 printf("Error sending command to queue\n");
             } else {
-                printf("Received and queued command: %s\n", commandMessage);
+                printf("Command sent to queue: ");
+                printCommand(commandMessage);
             }
         }
         vTaskDelay(pdMS_TO_TICKS(100)); 
     }
 }
+
 
 void vCommandRunTask(void *pvParameters) {
     char commandMessage[BUFFER_SIZE];
@@ -55,7 +70,8 @@ void vCommandRunTask(void *pvParameters) {
 
     for(;;) {
         if (xQueueReceive(commandQueue, &commandMessage, portMAX_DELAY) == pdTRUE) {
-            printf("Processing command: %s\n", commandMessage);
+            printf("Processing command: ");
+            printCommand(commandMessage);
             
             // Extract the command ID 
             int command = commandMessage[0];
@@ -66,7 +82,8 @@ void vCommandRunTask(void *pvParameters) {
             
             // Extract command data, stop at the first space or end of the string
             while (commandMessage[i] != '\0' && commandMessage[i] != '\n' && paramIndex < sizeof(commandData) - 1) {
-                printf("Processing command: %c\n", commandMessage[i]);
+                printf("Processing command: ");
+                printCommand(commandMessage);
                 if (commandMessage[i] == ' ') {
                     // Skip spaces between parameters
                     i++;
@@ -86,18 +103,19 @@ void vCommandRunTask(void *pvParameters) {
 
                 case 1:
                     // Drive command
-                    printf("Executing Drive command: %s\n", commandData);
+                    printf("Executing Drive command: ");
+                    printCommand(commandData);
                     DRV(commandData);  // Implement your drive function here
                     break;
 
                 case 2:
                     // Turn command
-                    printf("Executing Turn command: %s\n", commandData);
+                    printf("Executing Turn command: ");
                     break;
 
                 default:
                     // Command not recognized
-                    printf("Command not recognized: %s\n", commandMessage);
+                    printf("Command not recognized:");
                     break;
             }
         }
