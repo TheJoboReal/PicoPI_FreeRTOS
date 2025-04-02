@@ -195,8 +195,10 @@ void vCommandRunTask(void *pvParameters) {
                     break;
             }
 
-            // Free allocated memory after processing
-            vPortFree(commandMessage);
+            xSemaphoreTake(USBmutex, portMAX_DELAY);
+            printf("Command executed: %s\n", commandMessage);
+            xSemaphoreGive(USBmutex);
+
         }
         vTaskDelay(pdMS_TO_TICKS(100));
     }
