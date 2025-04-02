@@ -13,3 +13,5 @@
 #endif // FUNCTIONS_H
 
 QueueHandle_t commandQueue;
+
+SemaphoreHandle_t USBmutex;

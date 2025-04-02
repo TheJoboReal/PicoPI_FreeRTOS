@@ -6,6 +6,8 @@
 #include "task.h"
 #include "queue.h"
 #include "message_buffer.h"
+#include "semphr.h"
+
 #include "inc/defines.h"
 #include "inc/tasks.h"
 #include "inc/queues.h"
@@ -15,9 +17,13 @@
 
 
 
+
 void main() {
     stdio_init_all();  // Initializes USB serial communication
     busy_wait_ms(1000);  // Delay for stabilization
+
+    // Mutex for handling usb serial channel
+    USBmutex = xSemaphoreCreateMutex();
 
 
     commandQueue = xQueueCreate(10, sizeof(char[BUFFER_SIZE]));
