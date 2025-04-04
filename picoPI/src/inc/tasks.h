@@ -199,6 +199,17 @@ void vCommandRunTask(void *pvParameters) {
 
                     vPortFree(commandMessage);
                     break;
+
+                case 9:
+                // USB serial init.
+
+                    xSemaphoreTake(USBmutex, portMAX_DELAY);
+                    printf("USB initialized\n");
+                    xSemaphoreGive(USBmutex);
+
+                    vPortFree(commandMessage);
+                    break;
+
                 default:
 
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
