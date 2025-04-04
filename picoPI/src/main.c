@@ -29,9 +29,10 @@ void main() {
     commandQueue = xQueueCreate(10, sizeof(char[BUFFER_SIZE]));
 
     // Create tasks
-    xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
+    // xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
     xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 1, NULL);
     xTaskCreate(vCommandRunTask, "CommandRun", 4096, NULL, 1, NULL);
+    xTaskCreate(vPrintAliveTask, "PrintAlive", 128, NULL, 3, NULL);
 
     
     // Start the scheduler

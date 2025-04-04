@@ -64,9 +64,6 @@ void DRV(char *commandData){
     StepperMotor motor;
     init_stepper(&motor, pins, 1, 15, MICRO_STEPS);
     move_stepper(&motor, steps, direction, STEP_DELAY_US);
-    // xSemaphoreTake(USBmutex, portMAX_DELAY);
-    // printf("Moving stepper motor: %d steps, direction: %d, speed: %d%%\n", steps, direction, pwm_pct);
-    // xSemaphoreGive(USBmutex);
 }
 
 void STOP(){
@@ -84,23 +81,3 @@ void STOP(){
 
 
 }
-
-void process_command(int command_id, char *message) {
-    switch (command_id) {
-        case DRV_COMMAND:
-            DRV(message);
-            break;
-        case STOP_COMMAND:
-            STOP();
-            break;
-        default:
-
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Invalid command\n");
-            xSemaphoreGive(USBmutex);
-    }
-}
-
-
-
-

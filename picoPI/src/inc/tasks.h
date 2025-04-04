@@ -31,6 +31,15 @@ void vBlinkTask() {
     }
 }
 
+void vPrintAliveTask(){
+    for(;;){
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        printf("Alive\n");
+        xSemaphoreGive(USBmutex);
+        vTaskDelay(pdMS_TO_TICKS(500));
+    }
+}
+
 
 void vReceiverTask(void *pvParameters) {
     char commandMessage[BUFFER_SIZE];
