@@ -30,8 +30,9 @@ void main() {
 
     // Create tasks
     xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
-    xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 2, NULL);
-    xTaskCreate(vCommandRunTask, "Command Run Task", 128, (void *)BUFFER_SIZE, 3, NULL);
+    xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 1, NULL);
+    xTaskCreate(vCommandRunTask, "CommandRun", 4096, NULL, 1, NULL);
+
     
     // Start the scheduler
     vTaskStartScheduler();

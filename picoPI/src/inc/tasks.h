@@ -13,6 +13,7 @@
 #include "queues.h"
 #include "commands.h"
 #include "functions.h"
+#include "semphr.h"
 
 #endif // FUNCTIONS_H
 
@@ -112,7 +113,6 @@ void vReceiverTask(void *pvParameters) {
                 printf("Error sending command to queue\n");
                 xSemaphoreGive(USBmutex);
 
-                vPortFree(processedCommand);
             } else {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Command successfully queued: %s\n", processedCommand);
@@ -148,7 +148,6 @@ void vCommandRunTask(void *pvParameters) {
                 printf("Invalid command ID: %c\n", *ptr);
                 xSemaphoreGive(USBmutex);
 
-                vPortFree(commandMessage);      // Release memory
                 continue;
             }
 
@@ -161,10 +160,13 @@ void vCommandRunTask(void *pvParameters) {
             // Process the command
             switch (command) {
                 case 0:
+
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
                     printf("Executing Stop command\n");
                     xSemaphoreGive(USBmutex);
                     STOP();
+
+                    vPortFree(commandMessage);
                     break;
                 case 1:
 
@@ -175,9 +177,10 @@ void vCommandRunTask(void *pvParameters) {
                     DRV(commandMessage + 2);
 
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("Drive command executed\n");  // TODO: den her line crasher pico'en ved first message sent
+                    printf("Drive command executed\n");
                     xSemaphoreGive(USBmutex);
 
+                    vPortFree(commandMessage);
                     break;
                 case 2:
 
@@ -185,6 +188,7 @@ void vCommandRunTask(void *pvParameters) {
                     printf("Executing Turn command: %s\n", commandMessage + 2);
                     xSemaphoreGive(USBmutex);
 
+                    vPortFree(commandMessage);
                     break;
                 default:
 
@@ -192,14 +196,19 @@ void vCommandRunTask(void *pvParameters) {
                     printf("Command not recognized: %s\n", commandMessage);
                     xSemaphoreGive(USBmutex);
 
+                    vPortFree(commandMessage);
                     break;
             }
 
             xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Command executed: %s\n", commandMessage);
+            printf("Command executed\n");
             xSemaphoreGive(USBmutex);
 
         }
+
+            xSemaphoreTake(USBmutex, portMAX_DELAY);
+            printf("Udenfor switch\n");
+            xSemaphoreGive(USBmutex);
         vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
