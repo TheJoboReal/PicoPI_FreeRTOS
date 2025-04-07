@@ -51,77 +51,27 @@ void vReceiverTask(void *pvParameters) {
             int length = strlen(commandMessage);
             xSemaphoreGive(USBmutex); 
 
-            // Ensure the message is long enough for both start and end flags
-            if (length < 9) {
+            // Command parsing logic...
+            
+            // Check for stop command (this would immediately set the flag)
+            if (strncmp(commandMessage, "0000 0 0000", 10) == 0) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
-                // printf("Invalid command: Too short\n");
+                printf("Stop command received!\n");
                 xSemaphoreGive(USBmutex);
-                continue;
+
+                stopMotorFlag = true;  // Set the stop flag when stop command is detected
             }
 
-            // Remove trailing newline if present
-            if (commandMessage[length - 1] == '\n' || commandMessage[length - 1] == '\r') {
-                commandMessage[length - 1] = '\0';
-                length--;
-            }
-
-            // Print raw received command
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Raw received command: %s\n", commandMessage);
-            xSemaphoreGive(USBmutex);
-
-            // Check for start flag "0000"
-            if (!(commandMessage[0] == '0' && commandMessage[1] == '0' &&
-                  commandMessage[2] == '0' && commandMessage[3] == '0')) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Invalid command format: Missing start flag\n");
-                xSemaphoreGive(USBmutex);
-                continue;
-            }
-
-            // Check for end flag "0000"
-            if (!(commandMessage[length - 4] == '0' && commandMessage[length - 3] == '0' &&
-                  commandMessage[length - 2] == '0' && commandMessage[length - 1] == '0')) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Invalid command format: Missing end flag\n");
-                xSemaphoreGive(USBmutex);
-                continue;
-            }
-
-            // Remove start and end flags manually
-            int newLength = length - 8;  // Exclude 4 from start and 4 from end
-            if (newLength <= 0) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Invalid command format: No valid data\n");
-                xSemaphoreGive(USBmutex);
-                continue;
-            }
-
-            // Allocate memory for the processed command
+            // Process other commands...
             char *processedCommand = (char *)pvPortMalloc(newLength + 1);
-            if (processedCommand == NULL) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Memory allocation failed\n");
-                xSemaphoreGive(USBmutex);
-                continue;
-            }
-
-            // Copy processed command without flags
             strncpy(processedCommand, &commandMessage[4], newLength);
             processedCommand[newLength] = '\0';
-
-            // Debugging: Print cleaned command
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Processed command: %s\n", processedCommand);
-            xSemaphoreGive(USBmutex);
-
-            // Send pointer to queue
+            
+            // Enqueue the command
             if (xQueueSend(commandQueue, &processedCommand, portMAX_DELAY) != pdTRUE) {
-
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Error sending command to queue\n");
                 xSemaphoreGive(USBmutex);
-
             } else {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Command successfully queued: %s\n", processedCommand);
@@ -136,16 +86,15 @@ void vReceiverTask(void *pvParameters) {
 
 
 
-
 void vCommandRunTask(void *pvParameters) {
     char *commandMessage;  // Pointer to hold the received command
 
     for (;;) {
         // Receive pointer to command string from queue
         if (xQueueReceive(commandQueue, &commandMessage, portMAX_DELAY) == pdTRUE) {
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Received Command from queue:%s\n", commandMessage);
-            xSemaphoreGive(USBmutex);
+            // xSemaphoreTake(USBmutex, portMAX_DELAY);
+            // printf("Received Command from queue:%s\n", commandMessage);
+            // xSemaphoreGive(USBmutex);
 
             // Trim leading spaces to find the actual command ID
             char *ptr = commandMessage;
@@ -162,9 +111,9 @@ void vCommandRunTask(void *pvParameters) {
 
             int command = *ptr - '0';  // Convert char to integer
 
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Command ID: %d\n", command);
-            xSemaphoreGive(USBmutex);
+            // xSemaphoreTake(USBmutex, portMAX_DELAY);
+            // printf("Command ID: %d\n", command);
+            // xSemaphoreGive(USBmutex);
 
             // Process the command
             switch (command) {
@@ -210,9 +159,9 @@ void vCommandRunTask(void *pvParameters) {
 
                     vPortFree(commandMessage);
 
-                    xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("Continual Drive command executed\n");
-                    xSemaphoreGive(USBmutex);
+                    // xSemaphoreTake(USBmutex, portMAX_DELAY);
+                    // printf("Continual Drive command executed\n");
+                    // xSemaphoreGive(USBmutex);
 
                 case 9:
                 // USB serial init.
@@ -240,9 +189,9 @@ void vCommandRunTask(void *pvParameters) {
 
         }
 
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Udenfor switch\n");
-            xSemaphoreGive(USBmutex);
+            // xsemaphoretake(usbmutex, portmax_delay);
+            // printf("udenfor switch\n");
+            // xsemaphoregive(usbmutex);
         vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
