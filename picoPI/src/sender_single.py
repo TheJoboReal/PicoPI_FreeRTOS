@@ -9,7 +9,7 @@ ser = serial.Serial(port, baud_rate, timeout=1)
 time.sleep(2)  # Allow time for the serial connection to establish
 
 # Send the command with a newline
-command = "0000 1 F 50 100 0000\n"  # Example command
+command = "0000 3 F 40 0000\n"  # Example command
 
 ser.write(command.encode())  # Send command over USB serial
 ser.flush()  # Ensure data is sent immediately

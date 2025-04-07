@@ -81,3 +81,47 @@ void STOP(){
 
 
 }
+
+void conDrive(char *commandData){
+    // Continunuasly drive forward or backward
+    // Command format: "CON DIRECTION SPEED"
+    // DIRECTION: F or B
+    // SPEED: 0-100
+
+    int direction;
+
+    xSemaphoreTake(USBmutex, portMAX_DELAY);
+    printf("Commanddata received: %s\n", commandData);
+    xSemaphoreGive(USBmutex);
+    if (commandData[1] == 'F') {
+        direction = 1;  // Forward
+    } else if (commandData[1] == 'B') {
+        direction = -1; // Backward
+    } else {
+
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        printf("Invalid direction\n");
+        xSemaphoreGive(USBmutex);
+
+        return;
+    }
+
+    int pwm_pct = atoi(&commandData[3]);        // Speed percentage
+    if (pwm_pct < 0 || pwm_pct > 100) {
+
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        printf("Invalid speed percentage\n");
+        xSemaphoreGive(USBmutex);
+        return;
+    }
+
+    int steps = 800;
+    
+    StepperMotor motor;
+    init_stepper(&motor, pins, 1, 15, MICRO_STEPS);
+    move_stepper(&motor, steps, direction, STEP_DELAY_US);
+
+    xSemaphoreTake(USBmutex, portMAX_DELAY);
+    printf("ConDrive command received: %c %d %d\n", direction, pwm_pct, steps);
+    xSemaphoreGive(USBmutex);
+}
