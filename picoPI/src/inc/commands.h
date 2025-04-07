@@ -93,9 +93,9 @@ void conDrive(char *commandData){
     xSemaphoreTake(USBmutex, portMAX_DELAY);
     printf("Commanddata received: %s\n", commandData);
     xSemaphoreGive(USBmutex);
-    if (commandData[1] == 'F') {
+    if (commandData[3] == 'F') {
         direction = 1;  // Forward
-    } else if (commandData[1] == 'B') {
+    } else if (commandData[3] == 'B') {
         direction = -1; // Backward
     } else {
 
@@ -115,7 +115,7 @@ void conDrive(char *commandData){
         return;
     }
 
-    int steps = 800;
+    int steps = 99999;
     
     StepperMotor motor;
     init_stepper(&motor, pins, 1, 15, MICRO_STEPS);
