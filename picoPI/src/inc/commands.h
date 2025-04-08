@@ -154,6 +154,73 @@ void conDrive(char *commandData){
 }
 
 
+void conTurn(char *commandData){
+    // Command format: "CON DIRECTION SPEED"
+    // DIRECTION: L or R
+    // SPEED: 0-100
+
+    int direction;
+
+    if (commandData[3] == 'L') {
+        direction = 1;  // Left
+    } else if (commandData[3] == 'R') {
+        direction = -1; // Left
+    } else {
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        printf("Invalid direction\n");
+        xSemaphoreGive(USBmutex);
+        return;
+    }
+
+    int pwm_pct = atoi(&commandData[4]);        // Speed percentage
+    if (pwm_pct < 0 || pwm_pct > 100) {
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        printf("Invalid speed percentage\n");
+        xSemaphoreGive(USBmutex);
+        return;
+    }
+
+
+    StepperMotor motor;
+    init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
+
+    int i = 0;
+            xSemaphoreTake(USBmutex, portMAX_DELAY);
+            printf("Entering drive loop\n");
+            xSemaphoreGive(USBmutex);
+
+    int steps = 99999;
+
+    for (int i = 0; i < steps; i++) {
+        if (stopMotorFlag) {        // Checks for the stop command
+            xSemaphoreTake(USBmutex, portMAX_DELAY);
+            printf("Stop command received, stopping motor\n");
+            xSemaphoreGive(USBmutex);
+
+            stop_stepper(pins);
+            return;
+        }
+
+        // Execute the motor step
+        set_step(&motor, 0, (motor.step_counter[0] - 1 * direction) % 8);  // Left motor
+        set_step(&motor, 1, (motor.step_counter[1] + 1 * direction) % 8);  // Right motor
+
+        // Delay based on speed
+        vTaskDelay(STEP_DELAY_US / 1000 / portTICK_PERIOD_MS);
+
+        // Update motor step counters
+        motor.step_counter[0] -= 1 * direction;
+        motor.step_counter[1] += direction;
+        
+        if (i % 10 == 0) {
+            taskYIELD(); // Yield to let FreeRTOS handle other tasks
+        }
+    }
+
+    xSemaphoreTake(USBmutex, portMAX_DELAY);
+    printf("Continuous drive command completed\n");
+    xSemaphoreGive(USBmutex);
+}
 
 void STOP(){
 

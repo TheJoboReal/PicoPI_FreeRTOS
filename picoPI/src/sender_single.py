@@ -22,7 +22,7 @@ ser.flush()  # Ensure data is sent immediately
 print(f"Sent command: {command.strip()}")  # Debugging output
 
 # Send the command with a newline
-command = "0000 3 F 40 0000\n"  # Example command
+command = "0000 4 R 40 0000\n"  # Example command
 
 ser.write(command.encode())  # Send command over USB serial
 ser.flush()  # Ensure data is sent immediately

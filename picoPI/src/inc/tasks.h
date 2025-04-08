@@ -221,6 +221,20 @@ void vCommandRunTask(void *pvParameters) {
                         // printf("Continual Drive command executed\n");
                         // xSemaphoreGive(USBmutex);
 
+                    case 4:
+                    // Continual turn
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("Executing Continual Turn\n");
+                        xSemaphoreGive(USBmutex);
+
+                        conTurn(commandMessage);
+
+                        vPortFree(commandMessage);
+
+                        // xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        // printf("Continual Drive command executed\n");
+                        // xSemaphoreGive(USBmutex);
+
                     case 9:
                     // USB serial init.
 
