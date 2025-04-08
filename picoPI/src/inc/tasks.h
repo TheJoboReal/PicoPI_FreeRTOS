@@ -190,66 +190,66 @@ void vCommandRunTask(void *pvParameters) {
                     printf("Executing Drive command: %s\n", commandMessage + 2);
                     xSemaphoreGive(USBmutex);
 
-                    DRV(commandMessage + 2);
+                        DRV(commandMessage + 2);
 
-                    xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("Drive command executed\n");
-                    xSemaphoreGive(USBmutex);
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("Drive command executed\n");
+                        xSemaphoreGive(USBmutex);
 
-                    vPortFree(commandMessage);
-                    break;
-                case 2:
+                        vPortFree(commandMessage);
+                        break;
+                    case 2:
 
-                    xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("Executing Turn command: %s\n", commandMessage + 2);
-                    xSemaphoreGive(USBmutex);
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("Executing Turn command: %s\n", commandMessage + 2);
+                        xSemaphoreGive(USBmutex);
 
-                    vPortFree(commandMessage);
-                    break;
-                
-                case 3:
-                // Continual drive
-                    xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("Executing Continual Drive\n");
-                    xSemaphoreGive(USBmutex);
+                        vPortFree(commandMessage);
+                        break;
+                    
+                    case 3:
+                    // Continual drive
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("Executing Continual Drive\n");
+                        xSemaphoreGive(USBmutex);
 
-                    conDrive(commandMessage);
+                        conDrive(commandMessage);
 
-                    vPortFree(commandMessage);
+                        vPortFree(commandMessage);
 
-                    // xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    // printf("Continual Drive command executed\n");
-                    // xSemaphoreGive(USBmutex);
+                        // xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        // printf("Continual Drive command executed\n");
+                        // xSemaphoreGive(USBmutex);
 
-                case 9:
-                // USB serial init.
+                    case 9:
+                    // USB serial init.
 
-                    xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("USB initialized\n");
-                    xSemaphoreGive(USBmutex);
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("USB initialized\n");
+                        xSemaphoreGive(USBmutex);
 
-                    vPortFree(commandMessage);
-                    break;
+                        vPortFree(commandMessage);
+                        break;
 
-                default:
+                    default:
 
-                    xSemaphoreTake(USBmutex, portMAX_DELAY);
-                    printf("Command not recognized: %s\n", commandMessage);
-                    xSemaphoreGive(USBmutex);
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("Command not recognized: %s\n", commandMessage);
+                        xSemaphoreGive(USBmutex);
 
-                    vPortFree(commandMessage);
-                    break;
+                        vPortFree(commandMessage);
+                        break;
+                }
+
+                xSemaphoreTake(USBmutex, portMAX_DELAY);
+                printf("Command executed\n");
+                xSemaphoreGive(USBmutex);
+
             }
 
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Command executed\n");
-            xSemaphoreGive(USBmutex);
-
+                // xsemaphoretake(usbmutex, portmax_delay);
+                // printf("udenfor switch\n");
+                // xsemaphoregive(usbmutex);
+            vTaskDelay(pdMS_TO_TICKS(100));
         }
-
-            // xsemaphoretake(usbmutex, portmax_delay);
-            // printf("udenfor switch\n");
-            // xsemaphoregive(usbmutex);
-        vTaskDelay(pdMS_TO_TICKS(100));
     }
-}

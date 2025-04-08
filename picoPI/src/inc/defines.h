@@ -13,6 +13,6 @@ QueueHandle_t commandQueue;
 #define DRV_COMMAND 1
 #define STATUS_COMMAND 2
 
-volatile bool stopMotorFlag = false;  // Shared flag for motor stop command
+volatile bool stopMotorFlag = false;
 
 #endif //DEFINES_H

@@ -52,29 +52,35 @@ void DRV(char *commandData){
         return;
     }
 
-    // Initialize stepper motor (setup)
     StepperMotor motor;
     init_stepper(&motor, pins, 1, 15, MICRO_STEPS);
 
-    // Move stepper with a polling check for the stop command
     for (int i = 0; i < steps; i++) {
-        if (stopMotorFlag) {
+        if (stopMotorFlag) {        // Checks for the stop command
             xSemaphoreTake(USBmutex, portMAX_DELAY);
             printf("Stop command received, stopping motor\n");
             xSemaphoreGive(USBmutex);
 
-            stop_stepper(pins);  // Stop the motor immediately
-            return;  // Exit the function, effectively stopping further movement
+            stop_stepper(pins);
+            return;
         }
 
-        // Move motor by one step (this should include a small delay between steps)
-        move_stepper(&motor, 1, direction, STEP_DELAY_US);
+        // Execute the motor step
+        set_step(&motor, 0, (motor.step_counter[0] + direction) % 8);  // Left motor
+        set_step(&motor, 1, (motor.step_counter[1] + direction) % 8);  // Right motor
+
+        // Delay based on speed
+        vTaskDelay(STEP_DELAY_US / 1000 / portTICK_PERIOD_MS);
+
+        // Update motor step counters
+        motor.step_counter[0] += direction;
+        motor.step_counter[1] += direction;
         
-        // Optionally, add a small delay here to allow for periodic checking
-        vTaskDelay(pdMS_TO_TICKS(1));  // Delay to allow checking of the stop flag
+        if (i % 10 == 0) {
+            taskYIELD(); // Yield to let FreeRTOS handle other tasks
+        }
     }
 
-    // Finalize and stop stepper if completed
     stop_stepper(pins);
 }
 
@@ -97,7 +103,7 @@ void conDrive(char *commandData){
         return;
     }
 
-    int pwm_pct = atoi(&commandData[3]);        // Speed percentage
+    int pwm_pct = atoi(&commandData[4]);        // Speed percentage
     if (pwm_pct < 0 || pwm_pct > 100) {
         xSemaphoreTake(USBmutex, portMAX_DELAY);
         printf("Invalid speed percentage\n");
@@ -105,17 +111,23 @@ void conDrive(char *commandData){
         return;
     }
 
-    int steps = 99999;
 
     StepperMotor motor;
     init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
 
-    for (int i = 0; i < steps; i++) {
-        // Check for notification to stop the motor
-        if (ulTaskNotifyTake(pdTRUE, 0)) {
+    int i = 0;
             xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Continuous drive command interrupted (Stop signal received)\n");
+            printf("Entering drive loop\n");
             xSemaphoreGive(USBmutex);
+
+    int steps = 99999;
+
+    for (int i = 0; i < steps; i++) {
+        if (stopMotorFlag) {        // Checks for the stop command
+            xSemaphoreTake(USBmutex, portMAX_DELAY);
+            printf("Stop command received, stopping motor\n");
+            xSemaphoreGive(USBmutex);
+
             stop_stepper(pins);
             return;
         }
@@ -130,8 +142,7 @@ void conDrive(char *commandData){
         // Update motor step counters
         motor.step_counter[0] += direction;
         motor.step_counter[1] += direction;
-
-        // Yield every few steps to allow the system to process new commands
+        
         if (i % 10 == 0) {
             taskYIELD(); // Yield to let FreeRTOS handle other tasks
         }
