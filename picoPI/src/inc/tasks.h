@@ -17,7 +17,6 @@
 
 #endif // FUNCTIONS_H
 
-const size_t BUFFER_SIZE = 64;
 
 
 void vBlinkTask() {
@@ -34,22 +33,37 @@ void vBlinkTask() {
 void vPrintAliveTask(){
     for(;;){
         xSemaphoreTake(USBmutex, portMAX_DELAY);
-        printf("Alive\n");
+        printf("Im alive\n");
         xSemaphoreGive(USBmutex);
-        vTaskDelay(pdMS_TO_TICKS(500));
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 
 
 void vReceiverTask(void *pvParameters) {
     char commandMessage[BUFFER_SIZE];
+    int timer = 0;
 
     for (;;) {
+
+        // Check for stop command (this would immediately set the flag)
+        if (timer > timeOut){
+            xSemaphoreTake(USBmutex, portMAX_DELAY);
+            printf("RecieverTask timed out!\n");
+            xSemaphoreGive(USBmutex);
+
+            timeOutFlag = true;  // Set the stop flag when stop command is detected
+        }
+
+        timer += 1;
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        printf("Timer at %d\n", timer);
+        xSemaphoreGive(USBmutex);
+
+
         // Read command from USB serial
-        xSemaphoreTake(USBmutex, portMAX_DELAY); 
         if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {    // Read command from stdin
             int length = strlen(commandMessage);
-            xSemaphoreGive(USBmutex); 
 
             // Ensure the message is long enough for both start and end flags
             if (length < 9) {
@@ -59,14 +73,6 @@ void vReceiverTask(void *pvParameters) {
                 continue;
             }
 
-            // Check for stop command (this would immediately set the flag)
-            if (strncmp(commandMessage, "0000 0 0000", 10) == 0) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Stop command received!\n");
-                xSemaphoreGive(USBmutex);
-
-                stopMotorFlag = true;  // Set the stop flag when stop command is detected
-            }
 
             // Remove trailing newline if present
             if (commandMessage[length - 1] == '\n' || commandMessage[length - 1] == '\r') {
@@ -135,6 +141,11 @@ void vReceiverTask(void *pvParameters) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Command successfully queued: %s\n", processedCommand);
                 xSemaphoreGive(USBmutex);
+
+                timer = 0;
+                xSemaphoreTake(USBmutex, portMAX_DELAY); 
+                printf("Timer reset\n", timer);
+                xSemaphoreGive(USBmutex); 
             }
         }
         xSemaphoreGive(USBmutex);

@@ -53,12 +53,12 @@ void DRV(char *commandData){
     }
 
     StepperMotor motor;
-    init_stepper(&motor, pins, 1, 15, MICRO_STEPS);
+    init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
 
     for (int i = 0; i < steps; i++) {
-        if (stopMotorFlag) {        // Checks for the stop command
+        if (timeOutFlag) {        // Checks for the stop command
             xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Stop command received, stopping motor\n");
+            printf("Timed out, stopping steppers\n");
             xSemaphoreGive(USBmutex);
 
             stop_stepper(pins);
@@ -115,17 +115,16 @@ void conDrive(char *commandData){
     StepperMotor motor;
     init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
 
-    int i = 0;
             xSemaphoreTake(USBmutex, portMAX_DELAY);
             printf("Entering drive loop\n");
             xSemaphoreGive(USBmutex);
 
-    int steps = 99999;
+    int i = 0;
 
-    for (int i = 0; i < steps; i++) {
-        if (stopMotorFlag) {        // Checks for the stop command
+    for (;;) {
+        if (timeOutFlag) {        // Checks for the stop command
             xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Stop command received, stopping motor\n");
+            printf("Timed out, stopping steppers\n");
             xSemaphoreGive(USBmutex);
 
             stop_stepper(pins);
@@ -146,6 +145,7 @@ void conDrive(char *commandData){
         if (i % 10 == 0) {
             taskYIELD(); // Yield to let FreeRTOS handle other tasks
         }
+        i++;
     }
 
     xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -184,17 +184,15 @@ void conTurn(char *commandData){
     StepperMotor motor;
     init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
 
-    int i = 0;
             xSemaphoreTake(USBmutex, portMAX_DELAY);
             printf("Entering drive loop\n");
             xSemaphoreGive(USBmutex);
 
-    int steps = 99999;
-
-    for (int i = 0; i < steps; i++) {
-        if (stopMotorFlag) {        // Checks for the stop command
+    int i = 0;
+    for (;;) {
+        if (timeOutFlag) {        // Checks for the stop command
             xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("Stop command received, stopping motor\n");
+            printf("Timed out, stopping steppers\n");
             xSemaphoreGive(USBmutex);
 
             stop_stepper(pins);
@@ -215,6 +213,7 @@ void conTurn(char *commandData){
         if (i % 10 == 0) {
             taskYIELD(); // Yield to let FreeRTOS handle other tasks
         }
+        i++;
     }
 
     xSemaphoreTake(USBmutex, portMAX_DELAY);
