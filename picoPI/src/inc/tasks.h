@@ -34,6 +34,7 @@ void vPrintAliveTask(){
     for(;;){
         xSemaphoreTake(USBmutex, portMAX_DELAY);
         printf("Im alive\n");
+        printf("Timer at: %d\n", timer);
         xSemaphoreGive(USBmutex);
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
@@ -42,10 +43,11 @@ void vPrintAliveTask(){
 
 void vReceiverTask(void *pvParameters) {
     char commandMessage[BUFFER_SIZE];
-    int timer = 0;
 
     for (;;) {
 
+        vTaskDelay(pdMS_TO_TICKS(100));
+        timer += 1;
         // Check for stop command (this would immediately set the flag)
         if (timer > timeOut){
             xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -54,11 +56,6 @@ void vReceiverTask(void *pvParameters) {
 
             timeOutFlag = true;  // Set the stop flag when stop command is detected
         }
-
-        timer += 1;
-        xSemaphoreTake(USBmutex, portMAX_DELAY);
-        printf("Timer at %d\n", timer);
-        xSemaphoreGive(USBmutex);
 
 
         // Read command from USB serial
@@ -79,11 +76,6 @@ void vReceiverTask(void *pvParameters) {
                 commandMessage[length - 1] = '\0';
                 length--;
             }
-
-            // Print raw received command
-            // xSemaphoreTake(USBmutex, portMAX_DELAY);
-            // printf("Raw received command: %s\n", commandMessage);
-            // xSemaphoreGive(USBmutex);
 
             // Check for start flag "0000"
             if (!(commandMessage[0] == '0' && commandMessage[1] == '0' &&
@@ -150,7 +142,6 @@ void vReceiverTask(void *pvParameters) {
         }
         xSemaphoreGive(USBmutex);
 
-        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
@@ -161,28 +152,25 @@ void vCommandRunTask(void *pvParameters) {
     for (;;) {
         // Receive pointer to command string from queue
         if (xQueueReceive(commandQueue, &commandMessage, portMAX_DELAY) == pdTRUE) {
-            // xSemaphoreTake(USBmutex, portMAX_DELAY);
-            // printf("Received Command from queue:%s\n", commandMessage);
-            // xSemaphoreGive(USBmutex);
 
             // Trim leading spaces to find the actual command ID
             char *ptr = commandMessage;
             while (*ptr == ' ') ptr++;  // Move past spaces
 
-            // Extract command ID
-            if (*ptr < '0' || *ptr > '9') {     // Check if it's a valid digit
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Invalid command ID: %c\n", *ptr);
-                xSemaphoreGive(USBmutex);
+            // Convert processed command to integer (0–99 expected)
+            int commandValue = atoi(commandMessage);  // Converts string to int
 
+            // Validate range
+            if (commandValue < 0 || commandValue > 99) {
+                xSemaphoreTake(USBmutex, portMAX_DELAY);
+                printf("Invalid command: out of range (%d)\n", commandValue);
+                xSemaphoreGive(USBmutex);
+                vPortFree(commandMessage);
                 continue;
             }
 
-            int command = *ptr - '0';  // Convert char to integer
 
-            // xSemaphoreTake(USBmutex, portMAX_DELAY);
-            // printf("Command ID: %d\n", command);
-            // xSemaphoreGive(USBmutex);
+            int command = *ptr - '0';  // Convert char to integer
 
             // Process the command
             switch (command) {
@@ -215,6 +203,12 @@ void vCommandRunTask(void *pvParameters) {
                         printf("Executing Turn command: %s\n", commandMessage + 2);
                         xSemaphoreGive(USBmutex);
 
+                        Turn(commandMessage);
+
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("Turn command executed\n");
+                        xSemaphoreGive(USBmutex);
+
                         vPortFree(commandMessage);
                         break;
                     
@@ -226,11 +220,11 @@ void vCommandRunTask(void *pvParameters) {
 
                         conDrive(commandMessage);
 
-                        vPortFree(commandMessage);
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("ConDrive command executed\n");
+                        xSemaphoreGive(USBmutex);
 
-                        // xSemaphoreTake(USBmutex, portMAX_DELAY);
-                        // printf("Continual Drive command executed\n");
-                        // xSemaphoreGive(USBmutex);
+                        vPortFree(commandMessage);
 
                     case 4:
                     // Continual turn
@@ -240,11 +234,11 @@ void vCommandRunTask(void *pvParameters) {
 
                         conTurn(commandMessage);
 
-                        vPortFree(commandMessage);
+                        xSemaphoreTake(USBmutex, portMAX_DELAY);
+                        printf("ConTurn command executed\n");
+                        xSemaphoreGive(USBmutex);
 
-                        // xSemaphoreTake(USBmutex, portMAX_DELAY);
-                        // printf("Continual Drive command executed\n");
-                        // xSemaphoreGive(USBmutex);
+                        vPortFree(commandMessage);
 
                     case 9:
                     // USB serial init.
@@ -271,10 +265,6 @@ void vCommandRunTask(void *pvParameters) {
                 xSemaphoreGive(USBmutex);
 
             }
-
-                // xsemaphoretake(usbmutex, portmax_delay);
-                // printf("udenfor switch\n");
-                // xsemaphoregive(usbmutex);
             vTaskDelay(pdMS_TO_TICKS(100));
         }
     }
