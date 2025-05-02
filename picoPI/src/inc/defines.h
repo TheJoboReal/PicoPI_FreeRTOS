@@ -18,6 +18,5 @@ const size_t BUFFER_SIZE = 64;
 volatile bool timeOutFlag = false;
 volatile int timeOut = 50;
 volatile int timer = 0;
-// volatile int timer = 0;
 
 #endif //DEFINES_H

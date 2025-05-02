@@ -12,7 +12,6 @@
 #include "defines.h"
 #include "queues.h"
 #include "commands.h"
-#include "functions.h"
 #include "semphr.h"
 
 #endif // FUNCTIONS_H
@@ -34,7 +33,6 @@ void vPrintAliveTask(){
     for(;;){
         xSemaphoreTake(USBmutex, portMAX_DELAY);
         printf("Im alive\n");
-        printf("Timer at: %d\n", timer);
         xSemaphoreGive(USBmutex);
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
@@ -47,17 +45,6 @@ void vReceiverTask(void *pvParameters) {
     for (;;) {
 
         vTaskDelay(pdMS_TO_TICKS(100));
-        timer += 1;
-        // Check for stop command (this would immediately set the flag)
-        if (timer > timeOut){
-            xSemaphoreTake(USBmutex, portMAX_DELAY);
-            printf("RecieverTask timed out!\n");
-            xSemaphoreGive(USBmutex);
-
-            timeOutFlag = true;  // Set the stop flag when stop command is detected
-        }
-
-
         // Read command from USB serial
         if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {    // Read command from stdin
             int length = strlen(commandMessage);
@@ -133,11 +120,6 @@ void vReceiverTask(void *pvParameters) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Command successfully queued: %s\n", processedCommand);
                 xSemaphoreGive(USBmutex);
-
-                timer = 0;
-                xSemaphoreTake(USBmutex, portMAX_DELAY); 
-                printf("Timer reset\n", timer);
-                xSemaphoreGive(USBmutex); 
             }
         }
         xSemaphoreGive(USBmutex);
