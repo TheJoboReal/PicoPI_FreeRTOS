@@ -38,43 +38,43 @@ void vPrintAliveTask(){
     }
 }
 
-void vQueuePeekerTask(){
-    for(;;){
-        xSemaphoreTake(QueueMutex, portMAX_DELAY);
-        char *commandMessage;
-        if (xQueuePeek(commandQueue, &commandMessage, 0) == pdTRUE) {
-            // Check if command in queue is a stop command
+// void vQueuePeekerTask(){
+//     for(;;){
+//         xSemaphoreTake(QueueMutex, portMAX_DELAY);
+//         char *commandMessage;
+//         if (xQueuePeek(commandQueue, &commandMessage, 0) == pdTRUE) {
+//             // Check if command in queue is a stop command
 
-            // Trim leading spaces to find the actual command ID
-            char *ptr = commandMessage;
-            while (*ptr == ' ') ptr++;  // Move past spaces
+//             // Trim leading spaces to find the actual command ID
+//             char *ptr = commandMessage;
+//             while (*ptr == ' ') ptr++;  // Move past spaces
 
-            // Convert processed command to integer (0–99 expected)
-            int commandValue = atoi(commandMessage);  // Converts string to int
+//             // Convert processed command to integer (0–99 expected)
+//             int commandValue = atoi(commandMessage);  // Converts string to int
 
-            // Validate range
-            if (commandValue < 0 || commandValue > 99) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Invalid command: out of range (%d)\n", commandValue);
-                xSemaphoreGive(USBmutex);
-                vPortFree(commandMessage);
-                continue;
-            }
+//             // Validate range
+//             if (commandValue < 0 || commandValue > 99) {
+//                 xSemaphoreTake(USBmutex, portMAX_DELAY);
+//                 printf("Invalid command: out of range (%d)\n", commandValue);
+//                 xSemaphoreGive(USBmutex);
+//                 vPortFree(commandMessage);
+//                 continue;
+//             }
 
 
-            int command = *ptr - '0';  // Convert char to integer
+//             int command = *ptr - '0';  // Convert char to integer
 
-            if(command == 0){
-                timeOutFlag = true;
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Stop command recived");
-                xSemaphoreGive(USBmutex);
-            }
-        }
-        xSemaphoreGive(QueueMutex);
-        vTaskDelay(pdMS_TO_TICKS(100));
-    }
-}
+//             if(command == 0){
+//                 timeOutFlag = true;
+//                 xSemaphoreTake(USBmutex, portMAX_DELAY);
+//                 printf("Stop command recived");
+//                 xSemaphoreGive(USBmutex);
+//             }
+//         }
+//         xSemaphoreGive(QueueMutex);
+//         vTaskDelay(pdMS_TO_TICKS(100));
+//     }
+// }
 
 void vReceiverTask(void *pvParameters) {
     char commandMessage[BUFFER_SIZE];
@@ -140,11 +140,6 @@ void vReceiverTask(void *pvParameters) {
             // Copy processed command without flags
             strncpy(processedCommand, &commandMessage[4], newLength);
             processedCommand[newLength] = '\0';
-
-            // Debugging: Print cleaned command
-            // xSemaphoreTake(USBmutex, portMAX_DELAY);
-            // printf("Processed command: %s\n", processedCommand);
-            // xSemaphoreGive(USBmutex);
 
             // Send pointer to queue
             if (xQueueSend(commandQueue, &processedCommand, portMAX_DELAY) != pdTRUE) {

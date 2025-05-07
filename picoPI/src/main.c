@@ -33,7 +33,7 @@ void main() {
     xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 3, NULL);
     xTaskCreate(vCommandRunTask, "CommandRun", 4096, NULL, 2, NULL);
     xTaskCreate(vPrintAliveTask, "PrintAlive", 4096, NULL, 1, NULL);
-    xTaskCreate(vQueuePeekerTask, "Queue Peeker", 4096, NULL, 2, NULL);
+    // xTaskCreate(vQueuePeekerTask, "Queue Peeker", 4096, NULL, 2, NULL);
     
     // Start the scheduler
     vTaskStartScheduler();
