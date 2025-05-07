@@ -15,3 +15,4 @@
 QueueHandle_t commandQueue;
 
 SemaphoreHandle_t USBmutex;
+SemaphoreHandle_t QueueMutex;

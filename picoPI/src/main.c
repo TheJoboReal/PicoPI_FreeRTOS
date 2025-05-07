@@ -24,16 +24,16 @@ void main() {
 
     // Mutex for handling usb serial channel
     USBmutex = xSemaphoreCreateMutex();
-
+    QueueMutex = xSemaphoreCreateMutex();
 
     commandQueue = xQueueCreate(10, sizeof(char[BUFFER_SIZE]));
 
     // Create tasks
-    // xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
+    xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
     xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 3, NULL);
     xTaskCreate(vCommandRunTask, "CommandRun", 4096, NULL, 2, NULL);
     xTaskCreate(vPrintAliveTask, "PrintAlive", 4096, NULL, 1, NULL);
-
+    xTaskCreate(vQueuePeekerTask, "Queue Peeker", 4096, NULL, 2, NULL);
     
     // Start the scheduler
     vTaskStartScheduler();

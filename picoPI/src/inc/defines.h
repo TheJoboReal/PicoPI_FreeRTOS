@@ -7,8 +7,6 @@
 
 uint pins[] = {0, 1, 2, 3, 4, 5, 6, 7};
 
-QueueHandle_t commandQueue;
-
 
 #define STOP_COMMAND 0
 #define DRV_COMMAND 1
