@@ -165,6 +165,7 @@ void vCommandRunTask(void *pvParameters) {
 
     for (;;) {
         // Receive pointer to command string from queue
+        xSemaphoreTake(QueueMutex, portMAX_DELAY);
         if (xQueueReceive(commandQueue, &commandMessage, portMAX_DELAY) == pdTRUE) {
 
             // Trim leading spaces to find the actual command ID
@@ -185,6 +186,8 @@ void vCommandRunTask(void *pvParameters) {
 
 
             int command = *ptr - '0';  // Convert char to integer
+
+            xSemaphoreGive(QueueMutex);
 
             // Process the command
             switch (command) {
@@ -279,6 +282,7 @@ void vCommandRunTask(void *pvParameters) {
                 xSemaphoreGive(USBmutex);
 
             }
+            xSemaphoreGive(QueueMutex);
             vTaskDelay(pdMS_TO_TICKS(100));
         }
     }
