@@ -330,6 +330,9 @@ PICO_STDIO_UART:BOOL=ON
 //Globally enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
 
+//Directory where pioasm has been installed
+PIOASM_INSTALL_DIR:PATH=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build/pioasm-install
+
 //Value Computed by CMake
 app_BINARY_DIR:STATIC=/home/kasper/Documents/Civilingenioer_Robotteknologi/ISA_IPC/picoPI/build
 
