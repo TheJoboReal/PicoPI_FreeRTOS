@@ -12,4 +12,6 @@ To run the code you must first run the [[picoPI/setup_lib.sh|setup.sh]]: the scr
 ## Task Diagram
 
 
-## 
+## Mutexes
+To avoid [[https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/?|deadlocks]] in the OS we use [[https://www.geeksforgeeks.org/difference-between-binary-semaphore-and-mutex/|Mutexes]]. The mutexes are defined in [[picoPI/src/inc/queues.h|queues.h]] and they are **QueueMutex** and **USBMutex**, these are to protect the usb serial as we use it both for receiving commands and sending messages back, and to protect the queue as we access the queue from 3 different task at the *same* time.
+

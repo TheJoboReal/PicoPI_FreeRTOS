@@ -19,6 +19,7 @@
 
 
 void vBlinkTask() {
+    // Task that blinks every 250 miliseconds. This is to indicate that the pico is still running and have not crashed.
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
     for (;;) {
@@ -30,6 +31,7 @@ void vBlinkTask() {
 }
 
 void vPrintAliveTask(){
+    // Task that send Im alive over serial every 1000 miliseconds. This is to indicate that the pico is still running and have not crashed.
     for(;;){
         xSemaphoreTake(USBmutex, portMAX_DELAY);
         printf("Im alive\n");
@@ -77,13 +79,17 @@ void vPrintAliveTask(){
 // }
 
 void vReceiverTask(void *pvParameters) {
+    // Reciever task that recieves strings over serial, removes start and stop flags and adds the remaining message to a Queue that other tasks can access.
     char commandMessage[BUFFER_SIZE];
 
     for (;;) {
 
         vTaskDelay(pdMS_TO_TICKS(100));
         // Read command from USB serial
-        if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {    // Read command from stdin
+        xSemaphoreTake(USBmutex, portMAX_DELAY);
+        if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {    // Read command from stdin. Returns true if anything is received over serial.
+            xSemaphoreGive(QueueMutex);
+
             int length = strlen(commandMessage);
 
             // Ensure the message is long enough for both start and end flags
@@ -96,8 +102,8 @@ void vReceiverTask(void *pvParameters) {
 
 
             // Remove trailing newline if present
-            if (commandMessage[length - 1] == '\n' || commandMessage[length - 1] == '\r') {
-                commandMessage[length - 1] = '\0';
+            if (commandMessage[length - 1] == '\n' || commandMessage[length - 1] == '\r') {     // Check for newline or carriage return
+                commandMessage[length - 1] = '\0';      // Replace with null terminator
                 length--;
             }
 
@@ -120,7 +126,7 @@ void vReceiverTask(void *pvParameters) {
             }
 
             // Remove start and end flags manually
-            int newLength = length - 8;  // Exclude 4 from start and 4 from end
+            int newLength = length - 8;  // Exclude 4 from start and 4 from end(start and end flags)
             if (newLength <= 0) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Invalid command format: No valid data\n");
@@ -129,6 +135,7 @@ void vReceiverTask(void *pvParameters) {
             }
 
             // Allocate memory for the processed command
+            xSemaphoreTake(QueueMutex, portMAX_DELAY);
             char *processedCommand = (char *)pvPortMalloc(newLength + 1);
             if (processedCommand == NULL) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -136,12 +143,14 @@ void vReceiverTask(void *pvParameters) {
                 xSemaphoreGive(USBmutex);
                 continue;
             }
+            xSemaphoreGive(QueueMutex);
 
             // Copy processed command without flags
-            strncpy(processedCommand, &commandMessage[4], newLength);
-            processedCommand[newLength] = '\0';
+            strncpy(processedCommand, &commandMessage[4], newLength);   // Copy the commandMessage from 4 to newLength to get the message without flags
+            processedCommand[newLength] = '\0';     // Null-terminate the string
 
             // Send pointer to queue
+            xSemaphoreTake(QueueMutex, portMAX_DELAY);
             if (xQueueSend(commandQueue, &processedCommand, portMAX_DELAY) != pdTRUE) {
 
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -153,6 +162,7 @@ void vReceiverTask(void *pvParameters) {
                 printf("Command successfully queued: %s\n", processedCommand);
                 xSemaphoreGive(USBmutex);
             }
+            xSemaphoreGive(QueueMutex);
         }
         xSemaphoreGive(USBmutex);
 
