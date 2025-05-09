@@ -267,7 +267,7 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
 
-                    case 9:
+                    case 5:
                     // USB serial init.
 
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
