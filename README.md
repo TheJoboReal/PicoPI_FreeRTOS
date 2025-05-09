@@ -5,6 +5,17 @@ The project is an OS written in C with FreeRTOS that allows one to control a Pic
 ## Setup
 To run the code you must first run the [setup.sh](picoPI/setup.sh): the script pulls the needed libraries and sets up paths for your environment. Next, run the [cmake.sh](picoPI/cmake.sh) script to set up the build folder. Now run the [compile.sh](picoPI/compile.sh) script to make the binary files: this script should also be run when you make changes to the code. Lastly, plug the usb cable into the pico pi while holding down the reset button, the pi should now be in flash mode and be discoverable as a media, run the [run.sh](picoPI/run.sh) script to falsh the pico. The pico should now run the code that you compiled.
 
+To see the messages send by the pico, run the following code in a terminal:
+Install screen:
+```bash
+sudo apt install screen
+```
+Next run this:
+```bash
+sudo screen /dev/ttyACM0 115200
+```
+This will open a screen where the messages sent by the pico will stream.
+
 ## How the code works
 The OS works by listening on the serial port for command strings sent by any other program from any device. The command strings are recived by the pico pi and then handled by intern tasks. This allows for simple communication between any device and the Pico.
 
@@ -21,7 +32,7 @@ The message must start and end with the flags (the four zeroes) for the OS to kn
 ### Tasks
 There are two main tasks running on the pico: `vReceiverTask` and `vCommandRunTask`. The `vReceiverTask` listens to the serial port every $100$ tics, if any message is being sent, the task first checks if the message is long enough to be valid, it then checks the start and end flags and removes them if they are correct. When the flags have been removed, the stripped message is send a `commandQueue`, the task then goes back to listening on the serial. The `vCommandRunTask` takes the commands out of the queue and strips the command out of the message to find the command that should be run, this is done with a switch statement. The command then calls a function with the **CMD_DATA** as input to execute the chosen command.
 
-## Commands
+### Commands
 Commands are numbered 0-99 where 0-5 is taken and the rest is free to use. The following is a table over the predefined commands:
 | CMD Number | CMD Definition              |   CMD Format |
 |------------|-----------------------------|-----------|
@@ -36,6 +47,7 @@ Commands are numbered 0-99 where 0-5 is taken and the rest is free to use. The f
 | 99         | Free to use                      |   |
 
 ## Task Diagram
+:TODO
 
 
 ## Mutexes
