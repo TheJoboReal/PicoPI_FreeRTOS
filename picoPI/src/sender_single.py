@@ -22,17 +22,17 @@ ser.flush()  # Ensure data is sent immediately
 print(f"Sent command: {command.strip()}")  # Debugging output
 
 # Send the command with a newline
-command = "0000 2 R 40 500 0000\n"  # Example command
+command = "0000 3 F 40 0000\n"  # Example command
 
 ser.write(command.encode())  # Send command over USB serial
 ser.flush()  # Ensure data is sent immediately
 
 print(f"Sent command: {command.strip()}")  # Debugging output
 
-time.sleep(2)
+time.sleep(4)
 
 # Send the command with a newline
-command = "0000 2 L 40 250 0000\n"  # Example command
+command = "0000 0 0000\n"  # Example command
 
 ser.write(command.encode())  # Send command over USB serial
 ser.flush()  # Ensure data is sent immediately
