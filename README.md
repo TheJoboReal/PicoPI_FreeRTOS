@@ -21,13 +21,16 @@ The OS works by listening on the serial port for command strings sent by any oth
 
 ### Messages
 Messages are on the following form:
-```bash
+
+`
     0000 CMD CMD_DATA 0000
-```
+`
+
 The message must start and end with the flags (the four zeroes) for the OS to know when a message starts and ends. The CMD is the **[command](#commands)** the pico must execute, this could be drive forward/backward or send sensor data back the the operator. The **CMD_DATA** is the parameters that a command might need, such as direction to drive, PWM percentage and amount of microsteps. The following is an example command string that tells the robot to move forward in $500$ microsteps with $25\%$ PWM:
-```bash
+
+`
     0000 1 F 25 500 0000
-```
+`
 
 ### Tasks
 There are two main tasks running on the pico: `vReceiverTask` and `vCommandRunTask`. The `vReceiverTask` listens to the serial port every $100$ tics, if any message is being sent, the task first checks if the message is long enough to be valid, it then checks the start and end flags and removes them if they are correct. When the flags have been removed, the stripped message is send a `commandQueue`, the task then goes back to listening on the serial. The `vCommandRunTask` takes the commands out of the queue and strips the command out of the message to find the command that should be run, this is done with a switch statement. The command then calls a function with the **CMD_DATA** as input to execute the chosen command.
@@ -36,12 +39,12 @@ There are two main tasks running on the pico: `vReceiverTask` and `vCommandRunTa
 Commands are numbered 0-99 where 0-5 is taken and the rest is free to use. The following is a table over the predefined commands:
 | CMD Number | CMD Definition              |   CMD Format |
 |------------|-----------------------------|-----------|
-| 0          | Stop                             | 0000 0 0000  |
-| 1          | Step Forward/Backward            | 0000 1 F/B PWM% Microsteps 0000  |
-| 2          | Step Left/Rigth                  | 0000 2 L/R PWM% Microsteps 0000  |
-| 3          | Continuos Drive Forward/Backward | 0000 3 F/B PWM% 0000  |
-| 4          | Continuos Turn Left/Right        | 0000 4 L/R PWM% 0000  |
-| 5          | Initialize USB                   | 0000 5 0000           |
+| 0          | Stop                             | `0000 0 0000`  |
+| 1          | Step Forward/Backward            | `0000 1 F/B PWM% Microsteps 0000`  |
+| 2          | Step Left/Rigth                  | `0000 2 L/R PWM% Microsteps 0000`  |
+| 3          | Continuos Drive Forward/Backward | `0000 3 F/B PWM% 0000`  |
+| 4          | Continuos Turn Left/Right        | `0000 4 L/R PWM% 0000`  |
+| 5          | Initialize USB                   | `0000 5 0000`           |
 | 6          | Free to use                      |   |
 | ...        | ...                              |   |
 | 99         | Free to use                      |   |
