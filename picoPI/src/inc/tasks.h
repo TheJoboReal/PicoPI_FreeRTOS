@@ -19,6 +19,7 @@
 
 
 void vBlinkTask() {
+    // Task that blinks every 500ms to indicate the pico is still runnning
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
     for (;;) {
@@ -30,6 +31,7 @@ void vBlinkTask() {
 }
 
 void vPrintAliveTask(){
+    // Task that prints Im alive every 1000ms to indicate the pico is still runnning
     for(;;){
         xSemaphoreTake(USBmutex, portMAX_DELAY);
         printf("Im alive\n");
@@ -39,11 +41,11 @@ void vPrintAliveTask(){
 }
 
 void vQueuePeekerTask(){ 
+    // Task that peeks the queue without altering it. This is to look for stop commands to stop the stepper
     for(;;){
         xSemaphoreTake(QueueMutex, portMAX_DELAY);
         char *commandMessage;
         if (xQueuePeek(commandQueue, &commandMessage, 0) == pdTRUE) {
-            // Check if command in queue is a stop command
 
             // Trim leading spaces to find the actual command ID
             char *ptr = commandMessage;
@@ -64,7 +66,7 @@ void vQueuePeekerTask(){
 
             int command = *ptr - '0';  // Convert char to integer
 
-            if(command == 0){
+            if(command == STOP_COMMAND){
                 timeOutFlag = true;
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Stop command recived");
@@ -77,16 +79,17 @@ void vQueuePeekerTask(){
 }
 
 void vReceiverTask(void *pvParameters) {
+    // Task that checks the serial port to see if any message has been sent. Commands are then pushed to the commandQueue
     char commandMessage[BUFFER_SIZE];
 
     for (;;) {
 
         vTaskDelay(pdMS_TO_TICKS(100));
         // Read command from USB serial
-        if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {    // Read command from stdin
+        if (fgets(commandMessage, BUFFER_SIZE, stdin) != NULL) {
             int length = strlen(commandMessage);
 
-            // Ensure the message is long enough for both start and end flags
+            // Ensure the message is long enough for both start and end flags. 4 start and end flags, so a length of 9 minimum
             if (length < 9) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Invalid command: Too short\n");
@@ -119,7 +122,7 @@ void vReceiverTask(void *pvParameters) {
                 continue;
             }
 
-            // Remove start and end flags manually
+            // Find length of message without the flags
             int newLength = length - 8;  // Exclude 4 from start and 4 from end
             if (newLength <= 0) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -175,21 +178,11 @@ void vCommandRunTask(void *pvParameters) {
             // Convert processed command to integer (0–99 expected)
             int commandValue = atoi(commandMessage);  // Converts string to int
 
-            // Validate range
-            if (commandValue < 0 || commandValue > 99) {
-                xSemaphoreTake(USBmutex, portMAX_DELAY);
-                printf("Invalid command: out of range (%d)\n", commandValue);
-                xSemaphoreGive(USBmutex);
-                vPortFree(commandMessage);
-                continue;
-            }
-
-
             int command = *ptr - '0';  // Convert char to integer
 
-            // Process the command
+            // Process the command, and run the corresponding command function
             switch (command) {
-                case 0:
+                case STOP_COMMAND:
 
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
                     printf("Executing Stop command\n");
@@ -198,7 +191,7 @@ void vCommandRunTask(void *pvParameters) {
 
                     vPortFree(commandMessage);
                     break;
-                case 1:
+                case DRV_COMMAND:
 
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
                     printf("Executing Drive command: %s\n", commandMessage + 2);
@@ -212,7 +205,7 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
                         break;
-                    case 2:
+                    case TURN_COMMAND:
 
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Executing Turn command: %s\n", commandMessage + 2);
@@ -227,7 +220,7 @@ void vCommandRunTask(void *pvParameters) {
                         vPortFree(commandMessage);
                         break;
                     
-                    case 3:
+                    case CON_DRIVE_COMMAND:
                     // Continual drive
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Executing Continual Drive\n");
@@ -241,7 +234,7 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
 
-                    case 4:
+                    case CON_TURN_COMMAND:
                     // Continual turn
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Executing Continual Turn\n");
@@ -255,7 +248,7 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
 
-                    case 9:
+                    case USB_INIT_COMMAND:
                     // USB serial init.
 
                         xSemaphoreTake(USBmutex, portMAX_DELAY);

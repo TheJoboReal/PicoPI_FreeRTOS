@@ -54,7 +54,7 @@ def main():
         ser.flush()  # Ensure data is sent immediately
 
 
-        send_command(ser, "9")  # USB init command
+        send_command(ser, "5")  # USB init command
         curses.wrapper(control_loop, ser)
     except serial.SerialException as e:
         print(f"Serial error: {e}")

@@ -10,7 +10,10 @@ uint pins[] = {0, 1, 2, 3, 4, 5, 6, 7};
 
 #define STOP_COMMAND 0
 #define DRV_COMMAND 1
-#define STATUS_COMMAND 2
+#define TURN_COMMAND 2
+#define CON_DRIVE_COMMAND 3
+#define CON_TURN_COMMAND 4
+#define USB_INIT_COMMAND 5
 
 const size_t BUFFER_SIZE = 64;
 volatile bool timeOutFlag = false;
