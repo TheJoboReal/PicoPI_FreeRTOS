@@ -4,6 +4,13 @@ if(WIN32)
 else()
     set(USERHOME $ENV{HOME})
 endif()
+
+# Pull in SDK (must be before project)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+
+# Pull in FreeRTOS
+include($ENV{FreeRTOS_Kernel_Path}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+
 set(sdkVersion 2.1.1)
 set(toolchainVersion 14_2_Rel1)
 set(picotoolVersion 2.1.1)
@@ -14,11 +21,6 @@ endif()
 # ====================================================================================
 cmake_minimum_required(VERSION 3.13)
 
-# Pull in SDK (must be before project)
-include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
-
-# Pull in FreeRTOS
-include($ENV{FreeRTOS_Kernel_Path}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 project(app C CXX ASM)
 set(CMAKE_C_STANDARD 11)

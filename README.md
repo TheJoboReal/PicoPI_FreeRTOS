@@ -16,6 +16,16 @@ sudo screen /dev/ttyACM0 115200
 ```
 This will open a screen where the messages sent by the pico will stream.
 
+To run the control app you must install pyserial:
+```bash
+pip install pyserial
+```
+
+Now you can run the control with:
+```bash
+python3 src/control.py
+```
+
 ## How the code works
 The OS works by listening on the serial port for command strings sent by any other program from any device. The command strings are recived by the pico pi and then handled by intern tasks. This allows for simple communication between any device and the Pico.
 
