@@ -31,10 +31,13 @@ def control_loop(stdscr, ser):
             cmd = send_command(ser, "1 B 40 500")
             stdscr.addstr(3, 0, f"Sent: {cmd}         ")
         elif key == ord('h') or key == ord('a'):  # Left
-            cmd = send_command(ser, "2 L 40 250")
+            cmd = send_command(ser, "2 L 40 400")
             stdscr.addstr(3, 0, f"Sent: {cmd}         ")
         elif key == ord('l') or key == ord('d'):  # Right
-            cmd = send_command(ser, "2 R 40 250")
+            cmd = send_command(ser, "2 R 40 400")
+            stdscr.addstr(3, 0, f"Sent: {cmd}         ")
+        elif key == ord(' '):  # Spacebar for stop
+            cmd = send_command(ser, "0")
             stdscr.addstr(3, 0, f"Sent: {cmd}         ")
 
         stdscr.refresh()
@@ -44,6 +47,12 @@ def main():
     try:
         ser = serial.Serial(port, baud_rate, timeout=1)
         time.sleep(2)  # Wait for serial connection to initialize
+
+
+        command = "0000 5 0000\n"  # Example command
+        ser.write(command.encode())  # Send command over USB serial
+        ser.flush()  # Ensure data is sent immediately
+
 
         send_command(ser, "9")  # USB init command
         curses.wrapper(control_loop, ser)

@@ -141,11 +141,6 @@ void vReceiverTask(void *pvParameters) {
             strncpy(processedCommand, &commandMessage[4], newLength);
             processedCommand[newLength] = '\0';
 
-            // Debugging: Print cleaned command
-            // xSemaphoreTake(USBmutex, portMAX_DELAY);
-            // printf("Processed command: %s\n", processedCommand);
-            // xSemaphoreGive(USBmutex);
-
             // Send pointer to queue
             if (xQueueSend(commandQueue, &processedCommand, portMAX_DELAY) != pdTRUE) {
 
@@ -157,6 +152,7 @@ void vReceiverTask(void *pvParameters) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Command successfully queued: %s\n", processedCommand);
                 xSemaphoreGive(USBmutex);
+                timeOutFlag = false;
             }
         }
         xSemaphoreGive(USBmutex);
