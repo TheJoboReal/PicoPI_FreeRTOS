@@ -26,7 +26,7 @@ void main() {
     USBmutex = xSemaphoreCreateMutex();
     QueueMutex = xSemaphoreCreateMutex();
 
-    commandQueue = xQueueCreate(10, sizeof(char[BUFFER_SIZE]));
+    commandQueue = xQueueCreate(COMMAND_QUEUE_SIZE, sizeof(char[BUFFER_SIZE]));
 
     // Create tasks
     xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
