@@ -4,10 +4,14 @@ set -x  # Print each command before executing it (for debugging)
 
 
 # Clone the repositories
-git clone --recurse-submodules https://github.com/RaspberryPi/pico-sdk ~/.pico-sdk
-git clone --recurse-submodules -b smp https://github.com/FreeRTOS/FreeRTOS-Kernel ~/.FreeRTOS-Kernel
+if [ ! -d "$HOME/.pico-sdk" ]; then
+    git clone --recurse-submodules https://github.com/RaspberryPi/pico-sdk "$HOME/.pico-sdk"
+else
+    echo "$HOME/.pico-sdk already exists, skipping clone."
+fi
 
-# Export environment variables
-export PICO_SDK_PATH="$HOME/.pico-sdk"
-export FREERTOS_KERNEL_PATH="$HOME/.FreeRTOS-Kernel"
-
+if [ ! -d "$HOME/.FreeRTOS-Kernel" ]; then
+    git clone --recurse-submodules -b smp https://github.com/FreeRTOS/FreeRTOS-Kernel "$HOME/.FreeRTOS-Kernel"
+else
+    echo "$HOME/.FreeRTOS-Kernel already exists, skipping clone."
+fi
