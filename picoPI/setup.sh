@@ -1,8 +1,13 @@
-rm -rf lib
-mkdir lib
-cd lib
-git clone https://github.com/RaspberryPi/pico-sdk --recurse-submodules
-git clone -b smp https://github.com/FreeRTOS/FreeRTOS-Kernel --recurse-submodules
+#!/bin/bash
+set -e  # Exit immediately if a command exits with a non-zero status
+set -x  # Print each command before executing it (for debugging)
 
-export PICO_SDK_PATH=$PWD/pico-sdk
-export FREERTOS_KERNEL_PATH=$PWD/FreeRTOS-Kernel
+
+# Clone the repositories
+git clone --recurse-submodules https://github.com/RaspberryPi/pico-sdk ~/.pico-sdk
+git clone --recurse-submodules -b smp https://github.com/FreeRTOS/FreeRTOS-Kernel ~/.FreeRTOS-Kernel
+
+# Export environment variables
+export PICO_SDK_PATH="$HOME/.pico-sdk"
+export FREERTOS_KERNEL_PATH="$HOME/.FreeRTOS-Kernel"
+

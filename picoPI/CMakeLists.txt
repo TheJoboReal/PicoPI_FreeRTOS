@@ -9,7 +9,7 @@ endif()
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
-include($ENV{FreeRTOS_Kernel_Path}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 set(sdkVersion 2.1.1)
 set(toolchainVersion 14_2_Rel1)
