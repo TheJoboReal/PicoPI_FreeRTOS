@@ -17,7 +17,6 @@
 #endif // FUNCTIONS_H
 
 
-
 void vBlinkTask() {
     // Task that blinks every 500ms to indicate the pico is still runnning
     gpio_init(PICO_DEFAULT_LED_PIN);

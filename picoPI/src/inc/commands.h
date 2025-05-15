@@ -53,7 +53,7 @@ void DRV(char *commandData){
     }
 
     StepperMotor motor;
-    init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
+    init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);    // Initializse the motor struct and the motors
 
     for (int i = 0; i < steps; i++) {
         if (timeOutFlag) {        // Checks for the stop command
@@ -90,7 +90,7 @@ void Turn(char *commandData){
 
     int direction;
 
-    if (commandData[3] == 'L') {
+    if (commandData[3] == 'L') {    // Get direction Left or Right
         direction = 1;  // Left
     } else if (commandData[3] == 'R') {
         direction = -1; // Left
@@ -119,8 +119,8 @@ void Turn(char *commandData){
 
 
     StepperMotor motor;
-    init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);
-
+    init_stepper(&motor, pins, 1, pwm_pct, MICRO_STEPS);    // Initializse the motor struct and the motors
+    
             xSemaphoreTake(USBmutex, portMAX_DELAY);
             printf("Entering drive loop\n");
             xSemaphoreGive(USBmutex);
@@ -160,13 +160,13 @@ void Turn(char *commandData){
 
 void STOP(){
 
-    stop_stepper(pins);
+    stop_stepper(pins); // Stop the stepper motors
 
     xSemaphoreTake(USBmutex, portMAX_DELAY);
     printf("Stopped Robot\n");
     xSemaphoreGive(USBmutex);
 
-    xTaskNotifyGive(xTaskGetCurrentTaskHandle());
+    xTaskNotifyGive(xTaskGetCurrentTaskHandle());   // Notify the task that the command is completed
 }
 
 void conDrive(char *commandData){

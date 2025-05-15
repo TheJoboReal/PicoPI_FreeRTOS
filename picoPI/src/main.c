@@ -22,14 +22,15 @@ void main() {
     stdio_init_all();  // Initializes USB serial communication
     busy_wait_ms(1000);  // Delay for stabilization
 
-    // Mutex for handling usb serial channel
-    USBmutex = xSemaphoreCreateMutex();
-    QueueMutex = xSemaphoreCreateMutex();
+    // Mutex for handling usb serial channel and the commandQueue
+    USBmutex = xSemaphoreCreateMutex();     // Mutex to protect the serial
+    QueueMutex = xSemaphoreCreateMutex();   // Mutex to protect the commandQueue
 
-    commandQueue = xQueueCreate(COMMAND_QUEUE_SIZE, sizeof(char[BUFFER_SIZE]));
+    commandQueue = xQueueCreate(COMMAND_QUEUE_SIZE, sizeof(char[BUFFER_SIZE]));     // The commandQueue that stores all received messages
 
-    // Create tasks
-    xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
+    // The following is all the tasks that is running on the pico
+
+    // xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
     xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 3, NULL);
     xTaskCreate(vCommandRunTask, "CommandRun", 4096, NULL, 2, NULL);
     xTaskCreate(vPrintAliveTask, "PrintAlive", 4096, NULL, 4, NULL);

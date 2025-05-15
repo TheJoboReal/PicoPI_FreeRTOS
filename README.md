@@ -1,6 +1,6 @@
 # Intro
 This is a self study project with the goal of creating a framework that can be used for testing or used in teaching. 
-The project is an OS written in C with FreeRTOS that allows one to control a Pico PI W that is mounted on the linefollower robots used in by robtek on SDU. The OS is written, with the ability to easely add functionality in mind. 
+The project is an OS written in C with FreeRTOS that allows one to control a Pico PI W that is mounted on the linefollower robots used by robtek on SDU. The OS is written, with the ability to easely add functionality in mind. 
 
 ## Setup
 
