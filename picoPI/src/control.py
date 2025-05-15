@@ -41,7 +41,7 @@ def control_loop(stdscr, ser):
             stdscr.addstr(3, 0, f"Sent: {cmd}         ")
 
         stdscr.refresh()
-        time.sleep(0.05)
+        time.sleep(0.1)
 
 def main():
     try:
