@@ -2,10 +2,12 @@
 This is a self study project with the goal of creating a framework that can be used for testing or used in teaching. 
 The project is an OS written in C with FreeRTOS that allows one to control a Pico PI W that is mounted on the linefollower robots used by robtek on SDU. The OS is written, with the ability to easely add functionality in mind. 
 
+---
+
 ## Setup
 
 ### Prerequisite
-First, install the following apts:
+First, install the following packages:
 
 ```bash
 sudo apt install gcc-arm-none-eabi
@@ -39,7 +41,7 @@ Now you can run the control with:
 ```bash
 python3 src/control.py
 ```
-
+---
 ## How the code works
 The OS works by listening on the serial port for command strings sent by any other program from any device. The command strings are recived by the pico pi and then handled by intern tasks. This allows for simple communication between any device and the Pico.
 
