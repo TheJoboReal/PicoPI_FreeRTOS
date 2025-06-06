@@ -14,8 +14,7 @@
 #include "inc/pwm.h"
 
 
-
-
+// Remember to compile with "sh compile.sh" and flash with "sh run.sh" when you make changes to the code
 
 
 void main() {
@@ -28,7 +27,8 @@ void main() {
 
     commandQueue = xQueueCreate(COMMAND_QUEUE_SIZE, sizeof(char[BUFFER_SIZE]));     // The commandQueue that stores all received messages
 
-    // The following is all the tasks that is running on the pico
+    // The following is all the tasks that is running on the pico. 
+    // Comment out a task to stop it from running
 
     // xTaskCreate(vBlinkTask, "blink task", 128, (void *)BUFFER_SIZE, 1, NULL);
     xTaskCreate(vReceiverTask, "Receiver Task", 128, (void *)BUFFER_SIZE, 3, NULL);

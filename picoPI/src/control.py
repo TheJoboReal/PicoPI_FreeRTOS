@@ -6,19 +6,21 @@ import time
 port = '/dev/ttyACM0'  # Update as needed
 baud_rate = 115200
 
-# === Commands Mapping ===
+# Send command function
 def send_command(ser, cmd):
     wrapped_cmd = f"0000 {cmd} 0000\n"
     ser.write(wrapped_cmd.encode())
     ser.flush()
     return wrapped_cmd.strip()
 
+# The control loop
 def control_loop(stdscr, ser):
     stdscr.clear()
     stdscr.nodelay(True)  # Don't block on key press
     stdscr.addstr(0, 0, "Robot Controller (Vim-style keys)")
-    stdscr.addstr(1, 0, "Use: h (left), j (back), k (forward), l (right), q (quit)")
+    stdscr.addstr(1, 0, "Use: h/a (left), j/s (back), k/w (forward), l/d (right), q (quit)")
 
+    # === Commands Mapping ===
     while True:
         key = stdscr.getch()
 
