@@ -1,4 +1,4 @@
-#ifndef FUNCTIONS_H
+#ifndef FUNCTIONS_H commands
 #define FUNCTIONS_H
 
 #include <string.h>
@@ -53,7 +53,7 @@ void vQueuePeekerTask(){
             // Convert processed command to integer (0–99 expected)
             int commandValue = atoi(commandMessage);  // Converts string to int
 
-            // Validate range
+            // Validate range. Make sure that the command number is between 0 and 99.
             if (commandValue < 0 || commandValue > 99) {
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
                 printf("Invalid command: out of range (%d)\n", commandValue);
@@ -62,9 +62,9 @@ void vQueuePeekerTask(){
                 continue;
             }
 
-
             int command = *ptr - '0';  // Convert char to integer
 
+            // Check if the command is a stop command
             if(command == STOP_COMMAND){
                 timeOutFlag = true;
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -140,10 +140,10 @@ void vReceiverTask(void *pvParameters) {
             }
 
             // Copy processed command without flags
-            strncpy(processedCommand, &commandMessage[4], newLength);
+            strncpy(processedCommand, &commandMessage[4], newLength);   // We copy the message from 4 and newLength steps forward
             processedCommand[newLength] = '\0';
 
-            // Send pointer to queue
+            // Send the command to the commandQueue
             if (xQueueSend(commandQueue, &processedCommand, portMAX_DELAY) != pdTRUE) {
 
                 xSemaphoreTake(USBmutex, portMAX_DELAY);
@@ -181,7 +181,8 @@ void vCommandRunTask(void *pvParameters) {
 
             // Process the command, and run the corresponding command function
             switch (command) {
-                case STOP_COMMAND:
+
+                case STOP_COMMAND:    // Run the sop command
 
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
                     printf("Executing Stop command\n");
@@ -190,7 +191,8 @@ void vCommandRunTask(void *pvParameters) {
 
                     vPortFree(commandMessage);
                     break;
-                case DRV_COMMAND:
+
+                case DRV_COMMAND:   // Run the finite drive command
 
                     xSemaphoreTake(USBmutex, portMAX_DELAY);
                     printf("Executing Drive command: %s\n", commandMessage + 2);
@@ -204,7 +206,8 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
                         break;
-                    case TURN_COMMAND:
+
+                    case TURN_COMMAND:    // Run the finite turning command
 
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Executing Turn command: %s\n", commandMessage + 2);
@@ -219,7 +222,7 @@ void vCommandRunTask(void *pvParameters) {
                         vPortFree(commandMessage);
                         break;
                     
-                    case CON_DRIVE_COMMAND:
+                    case CON_DRIVE_COMMAND:  // Run the continous drive command
                     // Continual drive
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Executing Continual Drive\n");
@@ -233,7 +236,7 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
 
-                    case CON_TURN_COMMAND:
+                    case CON_TURN_COMMAND:  // Rune the continous turning command 
                     // Continual turn
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Executing Continual Turn\n");
@@ -247,8 +250,8 @@ void vCommandRunTask(void *pvParameters) {
 
                         vPortFree(commandMessage);
 
-                    case USB_INIT_COMMAND:
-                    // USB serial init.
+                    case USB_INIT_COMMAND:  // USB serial init.
+                    
 
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("USB initialized\n");
@@ -257,7 +260,7 @@ void vCommandRunTask(void *pvParameters) {
                         vPortFree(commandMessage);
                         break;
 
-                    default:
+                    default:    // default statement to catch any unrecognized commands
 
                         xSemaphoreTake(USBmutex, portMAX_DELAY);
                         printf("Command not recognized: %s\n", commandMessage);
