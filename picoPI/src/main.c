@@ -14,7 +14,7 @@
 #include "inc/pwm.h"
 
 
-// Remember to compile with "sh compile.sh" and flash with "sh run.sh" when you make changes to the code
+// Remember to compile with "bash compile.sh" and flash with "bash run.sh" when you make changes to the code
 
 
 void main() {
